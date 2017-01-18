@@ -503,6 +503,17 @@ public:
      * @return Selected angle in rad ([-PI, PI]). Return -2 * PI if user cancelled.
      */
     virtual double selectDirection(QPointF* ref, QList<double>* candidates, const QString& msg) = 0;
+
+    /**
+     * @brief createBlockWithEntities
+     * @param name Name of the block
+     * @param entList List of entities you want to add to the block
+     * @param reference Reference point of the block
+     * @return True on success, false on failure
+     */
+    virtual bool createBlockWithEntities(const QString& name,
+                                         QList<Plug_Entity*>* entList,
+                                         QPointF* reference) = 0;
 };
 
 

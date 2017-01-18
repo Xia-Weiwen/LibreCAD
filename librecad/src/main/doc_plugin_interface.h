@@ -130,6 +130,10 @@ public:
 
     /* method to select direction from plugin */
     double selectDirection(QPointF* ref, QList<double>* candidates, const QString& msg);
+
+    /* method to create blocks from plugin*/
+    bool createBlockWithEntities(const QString& name, QList<Plug_Entity*>* entList,
+                                 QPointF *reference);
 private:
     RS_Document *doc;
     RS_Graphic *docGr;

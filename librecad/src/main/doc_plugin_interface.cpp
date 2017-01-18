@@ -1456,3 +1456,27 @@ double Doc_plugin_interface::selectDirection(QPointF* ref, QList<double>* candid
     gView->killAllActions();
     return a->getSelectedDirection();
 }
+
+bool Doc_plugin_interface::createBlockWithEntities(const QString& name,
+                                                   QList<Plug_Entity*>* entList,
+                                                   QPointF* reference)
+{
+    QString blockName = name;
+    RS_Vector referencePoint = RS_Vector(reference->x(), reference->y());
+    RS_BlockData data = RS_BlockData(blockName, referencePoint, false);
+    RS_Block* block = new RS_Block(doc, data);
+    for(Plug_Entity* e: *entList)
+    {
+        RS_Entity *ent = (reinterpret_cast<Plugin_Entity*>(e))->getEnt();
+        if (ent)
+        {
+            // add entity to block:
+            RS_Entity* c = ent->clone();
+            c->move(-referencePoint);
+            block->addEntity(c);
+        }
+    }
+    // add block to graphic
+    bool ret = doc->getGraphic()->addBlock(block);
+    return ret;
+}
