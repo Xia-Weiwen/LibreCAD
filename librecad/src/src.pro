@@ -216,7 +216,8 @@ HEADERS += \
     actions/lc_actionfileexportmakercam.h \
     lib/engine/lc_rect.h \
     lib/printing/lc_printing.h \
-    actions/rs_actiondrawlinepolygon3.h
+    actions/rs_actiondrawlinepolygon3.h \
+    plugins/intern/lc_actiongetdirection.h
 
 SOURCES += \
     lib/actions/rs_actioninterface.cpp \
@@ -305,7 +306,8 @@ SOURCES += \
     lib/engine/lc_rect.cpp \
     lib/engine/rs.cpp \
     lib/printing/lc_printing.cpp \
-    actions/rs_actiondrawlinepolygon3.cpp
+    actions/rs_actiondrawlinepolygon3.cpp \
+    plugins/intern/lc_actiongetdirection.cpp
 
 # ################################################################################
 # Command

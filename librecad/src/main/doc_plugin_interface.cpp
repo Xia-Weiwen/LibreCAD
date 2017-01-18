@@ -50,6 +50,7 @@
 #include "intern/qc_actiongetpoint.h"
 #include "intern/qc_actiongetselect.h"
 #include "intern/qc_actiongetent.h"
+#include "intern/lc_actiongetdirection.h"
 #include "rs_math.h"
 #include "rs_debug.h"
 // #include <QDebug>
@@ -1435,3 +1436,23 @@ QString Doc_plugin_interface::realToStr(const qreal num, const int units, const 
     return msg;
 }
 
+double Doc_plugin_interface::selectDirection(QPointF* ref, QList<double>* candidates, const QString &msg)
+{
+    LC_ActionGetDirection* a = new LC_ActionGetDirection(*doc, *gView,
+                                                         ref, candidates);
+    if (a)
+    {
+        a->setMessage(msg);
+        gView->killAllActions();
+        gView->setCurrentAction(a);
+        QEventLoop ev;
+        while (!a->isFinished())
+        {
+            ev.processEvents();
+            if (!gView->getEventHandler()->hasAction())
+                break;
+        }
+    }
+    gView->killAllActions();
+    return a->getSelectedDirection();
+}

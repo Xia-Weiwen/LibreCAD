@@ -127,6 +127,9 @@ public:
 
     /*metod to handle undo in Plugin_Entity*/
     bool addToUndo(RS_Entity* current, RS_Entity* modified);
+
+    /* method to select direction from plugin */
+    double selectDirection(QPointF* ref, QList<double>* candidates, const QString& msg);
 private:
     RS_Document *doc;
     RS_Graphic *docGr;

@@ -161,7 +161,7 @@ distance between points=%2 is larger than diameter=%3</source>
 <context>
     <name>LC_ActionFactory</name>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1299"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1306"/>
         <source>&amp;Window Zoom</source>
         <translation>窗口缩放(&amp;W)</translation>
     </message>
@@ -222,7 +222,7 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
     <message>
         <location filename="../src/ui/lc_actionfactory.cpp" line="134"/>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="519"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="526"/>
         <source>&amp;Horizontal</source>
         <translation>水平(&amp;H)</translation>
     </message>
@@ -288,154 +288,159 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
     <message>
         <location filename="../src/ui/lc_actionfactory.cpp" line="231"/>
+        <source>Pol&amp;ygon (Cen,Tan)</source>
+        <translation>多边形（中心，切点）(&amp;y)</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="238"/>
         <source>Polygo&amp;n (Cor,Cor)</source>
         <translation>多边形(角点,角点)(&amp;n)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="240"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="247"/>
         <source>Center, &amp;Point</source>
         <translation>中心, 点(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="246"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="253"/>
         <source>Center, &amp;Radius</source>
         <translation>中心, 半径(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="253"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="260"/>
         <source>2 Points</source>
         <translation>两点</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="260"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="267"/>
         <source>2 Points, Radius</source>
         <translation>两点，半径</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="267"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="274"/>
         <source>3 Points</source>
         <translation>三点</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="274"/>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="335"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="281"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="342"/>
         <source>&amp;Concentric</source>
         <translation>同心(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="282"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="289"/>
         <source>Circle &amp;Inscribed</source>
         <translation>内切圆(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="289"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="296"/>
         <source>Tangential 2 Circles, Radius</source>
         <comment>circle tangential with two circles, and given radius</comment>
         <translation>相切两圆，半径</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="296"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="303"/>
         <source>Tangential 2 Circles, 1 Point</source>
         <translation>相切两圆，一点</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="303"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="310"/>
         <source>Tangential &amp;3 Circles</source>
         <translation>相切三圆(&amp;3)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="310"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="317"/>
         <source>Tangential, 2 P&amp;oints</source>
         <translation>相切，两点(&amp;o)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="319"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="326"/>
         <source>&amp;Center, Point, Angles</source>
         <translation>中心, 起点, 角度(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="327"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="334"/>
         <source>&amp;3 Points</source>
         <translation>三点(&amp;3)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="343"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="350"/>
         <source>Arc &amp;Tangential</source>
         <translation>相切弧(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="353"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="360"/>
         <source>&amp;Ellipse (Axis)</source>
         <translation>椭圆(轴)(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="360"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="367"/>
         <source>Ellipse &amp;Arc (Axis)</source>
         <translation>椭圆弧(轴)(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="367"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="374"/>
         <source>Ellipse &amp;Foci Point</source>
         <translation>焦点绘制椭圆(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="374"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="381"/>
         <source>Ellipse &amp;4 Point</source>
         <translation>四点椭圆(&amp;4)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="381"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="388"/>
         <source>Ellipse Center and &amp;3 Points</source>
         <translation>中心及三点绘制椭圆(&amp;3)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="388"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="395"/>
         <source>Ellipse &amp;Inscribed</source>
         <translation>内切椭圆 (&amp;I)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="397"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="404"/>
         <source>&amp;Spline</source>
         <translation>样条(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="404"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="411"/>
         <source>&amp;Spline through points</source>
         <translation>过点样条(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="413"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="420"/>
         <source>&amp;Polyline</source>
         <translation>多段线(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="624"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="631"/>
         <source>Mo&amp;ve and Rotate</source>
         <translation>移动旋转(&amp;v)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="654"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="661"/>
         <source>Tr&amp;im Two</source>
         <translation>修剪双方(&amp;i)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="670"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="677"/>
         <source>O&amp;ffset</source>
         <translation>偏移(&amp;f)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1083"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1090"/>
         <source>Ctrl+D</source>
         <comment>Toggle Draft Mode</comment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1158"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1165"/>
         <source>Menu Creator</source>
         <translation>菜单创建器</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1165"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1172"/>
         <source>Toolbar Creator</source>
         <translation>工具栏创建器</translation>
     </message>
@@ -444,7 +449,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">绘制多段线</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="420"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="427"/>
         <source>&amp;Add node</source>
         <translation>添加节点(&amp;A)</translation>
     </message>
@@ -453,7 +458,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">添加多段线节点</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="428"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="435"/>
         <source>A&amp;ppend node</source>
         <translation>追加节点(&amp;p)</translation>
     </message>
@@ -462,7 +467,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">追加多段线节点</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="436"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="443"/>
         <source>&amp;Delete node</source>
         <translation>删除节点(&amp;D)</translation>
     </message>
@@ -471,7 +476,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">删除多段线节点</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="444"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="451"/>
         <source>Delete &amp;between two nodes</source>
         <translation>删除两节点间(&amp;b)</translation>
     </message>
@@ -480,7 +485,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">删除两节点间</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="452"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="459"/>
         <source>&amp;Trim segments</source>
         <translation>修剪分段(&amp;T)</translation>
     </message>
@@ -489,7 +494,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">修剪多段线分段</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="460"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="467"/>
         <source>Create &amp;Equidistant Polylines</source>
         <translation>创建等距多段线(&amp;E)</translation>
     </message>
@@ -498,7 +503,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">创建等距多段线</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="467"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="474"/>
         <source>Create Polyline from Existing &amp;Segments</source>
         <translation>从现有分段创建多段线(&amp;S)</translation>
     </message>
@@ -507,102 +512,102 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">从现有分段创建多段线</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="476"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="483"/>
         <source>&amp;MText</source>
         <translation type="unfinished">文字段(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="482"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="489"/>
         <source>&amp;Text</source>
         <translation>文本(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="489"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="496"/>
         <source>&amp;Hatch</source>
         <translation>填充(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="496"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="503"/>
         <source>Insert &amp;Image</source>
         <translation>插入图像(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="505"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="512"/>
         <source>&amp;Aligned</source>
         <translation>对齐(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="512"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="519"/>
         <source>&amp;Linear</source>
         <translation>线性(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="526"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="533"/>
         <source>&amp;Vertical</source>
         <translation>垂直(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="533"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="540"/>
         <source>&amp;Radial</source>
         <translation>半径(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="540"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="547"/>
         <source>&amp;Diametric</source>
         <translation>直径(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="547"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="554"/>
         <source>&amp;Angular</source>
         <translation>角度(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="554"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="561"/>
         <source>&amp;Leader</source>
         <translation>引线(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="563"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="570"/>
         <source>&amp;Attributes</source>
         <translation>属性(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="571"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="578"/>
         <source>&amp;Delete</source>
         <translation>删除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="578"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="585"/>
         <source>Delete Freehand</source>
         <translation>删除手绘线</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="584"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="591"/>
         <source>&amp;Move / Copy</source>
         <translation>移动/复制(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="592"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="599"/>
         <source>Re&amp;vert direction</source>
         <translation>反向(&amp;v)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="594"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="601"/>
         <source>Ctrl+R</source>
         <translation>Ctrl+R</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="600"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="607"/>
         <source>&amp;Rotate</source>
         <translation>旋转(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="608"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="615"/>
         <source>&amp;Scale</source>
         <translation>缩放(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="616"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="623"/>
         <source>&amp;Mirror</source>
         <translation>镜像(&amp;M)</translation>
     </message>
@@ -611,17 +616,17 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">移动及旋转(&amp;o)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="631"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="638"/>
         <source>Rotate T&amp;wo</source>
         <translation>两点旋转(&amp;w)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="638"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="645"/>
         <source>&amp;Properties</source>
         <translation>属性(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="646"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="653"/>
         <source>&amp;Trim</source>
         <translation>修剪(&amp;T)</translation>
     </message>
@@ -630,7 +635,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">修剪两实体(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="662"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="669"/>
         <source>&amp;Lengthen</source>
         <translation>延长(&amp;L)</translation>
     </message>
@@ -639,132 +644,132 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">偏移(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="678"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="685"/>
         <source>&amp;Divide</source>
         <translation>打断(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="686"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="693"/>
         <source>&amp;Stretch</source>
         <translation>拉伸(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="694"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="701"/>
         <source>&amp;Bevel</source>
         <translation>倒角(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="702"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="709"/>
         <source>&amp;Fillet</source>
         <translation>圆角(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="710"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="717"/>
         <source>&amp;Explode Text into Letters</source>
         <translation>分解文本为字符(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="726"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="733"/>
         <source>Point inside contour</source>
         <translation>轮廓内点</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="732"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="739"/>
         <source>&amp;Distance Point to Point</source>
         <translation>点到点距离(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="739"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="746"/>
         <source>&amp;Distance Entity to Point</source>
         <translation>实体到点距离(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="746"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="753"/>
         <source>An&amp;gle between two lines</source>
         <translation>两线夹角 (&amp;g)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="753"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="760"/>
         <source>&amp;Total length of selected entities</source>
         <translation>选中实体总长(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="760"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="767"/>
         <source>Polygonal &amp;Area</source>
         <translation>多边形面积（&amp;A）</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1181"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1188"/>
         <source>&amp;Selection pointer</source>
         <translation>选择指针(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1191"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1198"/>
         <source>&amp;Undo</source>
         <translation>撤消(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1202"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1209"/>
         <source>&amp;Redo</source>
         <translation>重做(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1213"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1220"/>
         <source>Cu&amp;t</source>
         <translation>剪切(&amp;t)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1224"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1231"/>
         <source>&amp;Copy</source>
         <translation>复制(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1235"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1242"/>
         <source>&amp;Paste</source>
         <translation>粘贴(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="779"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="786"/>
         <source>move to bottom</source>
         <translation>移到底部</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="966"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="973"/>
         <source>Widget Options</source>
         <translation>窗体选项</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="972"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="979"/>
         <source>Device Options</source>
         <translation>设备选项</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1106"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1113"/>
         <source>Left</source>
         <translation>左边</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1115"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1122"/>
         <source>Right</source>
         <translation>右边</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1124"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1131"/>
         <source>Top</source>
         <translation>顶部</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1133"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1140"/>
         <source>Bottom</source>
         <translation>底部</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1142"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1149"/>
         <source>Floating</source>
         <translation>浮动</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1151"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1158"/>
         <source>Reload Style Sheet</source>
         <translation>重载样式表</translation>
     </message>
@@ -773,7 +778,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">设为底</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="787"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="794"/>
         <source>lower after entity</source>
         <translation>比实体底</translation>
     </message>
@@ -782,12 +787,12 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">比实体底</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="795"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="802"/>
         <source>raise over entity</source>
         <translation type="unfinished">提高到实体上</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="803"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="810"/>
         <source>move to top</source>
         <translation>移到顶部</translation>
     </message>
@@ -796,94 +801,94 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">设为顶</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="813"/>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="878"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="820"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="885"/>
         <source>&amp;Show all</source>
         <translation>显示全部 (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="820"/>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="885"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="827"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="892"/>
         <source>&amp;Hide all</source>
         <translation>隐藏全部 (&amp;H)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="827"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="834"/>
         <source>&amp;Add Layer</source>
         <translation>添加图层(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="834"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="841"/>
         <source>&amp;Remove Layer</source>
         <translation>删除图层(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="841"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="848"/>
         <source>&amp;Edit Layer</source>
         <translation>编辑图层(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="848"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="855"/>
         <source>Toggle Layer Loc&amp;k</source>
         <translation type="unfinished">图层是否锁定 (&amp;k)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="855"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="862"/>
         <source>&amp;Toggle Layer Visibility</source>
         <translation type="unfinished">图层是否可见 (&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="862"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="869"/>
         <source>Toggle Layer &amp;Print</source>
         <translation type="unfinished">图层是否打印(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="869"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="876"/>
         <source>Toggle &amp;Construction Layer</source>
         <translation>是否为构造图层(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="892"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="899"/>
         <source>&amp;Add Block</source>
         <translation>添加图块(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="899"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="906"/>
         <source>&amp;Remove Block</source>
         <translation>移除图块(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="906"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="913"/>
         <source>&amp;Rename Block</source>
         <translation>重命名图块(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="913"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="920"/>
         <source>&amp;Edit Block</source>
         <translation>编辑图块(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="920"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="927"/>
         <source>&amp;Save Block</source>
         <translation>保存图块(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="927"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="934"/>
         <source>&amp;Insert Block</source>
         <translation>插入图块(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="934"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="941"/>
         <source>Toggle Block &amp;Visibility</source>
         <translation>改变图块可见 (&amp;V)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="941"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="948"/>
         <source>&amp;Create Block</source>
         <translation>创建图块(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="717"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="724"/>
         <source>Ex&amp;plode</source>
         <translation>拆分 (&amp;p)</translation>
     </message>
@@ -892,12 +897,12 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">选项(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="950"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="957"/>
         <source>&amp;Application Preferences</source>
         <translation>应用程序选项(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="958"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="965"/>
         <source>Current &amp;Drawing Preferences</source>
         <translation>当前图纸选项(&amp;D)</translation>
     </message>
@@ -910,32 +915,32 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">运行脚本..</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="980"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="987"/>
         <source>&amp;Delete selected</source>
         <translation>删除选中(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="988"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="995"/>
         <source>Select &amp;All</source>
         <translation>选择所有(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="998"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1005"/>
         <source>Deselect &amp;all</source>
         <translation>取消选中所有(&amp;a)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1000"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1007"/>
         <source>Ctrl+K</source>
         <translation>Ctrl+K</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1007"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1014"/>
         <source>Invert Selection</source>
         <translation>反向选择</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1016"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1023"/>
         <source>Export as &amp;MakerCAM SVG...</source>
         <translation>导出为MakerCAM SVG(&amp;M)...</translation>
     </message>
@@ -944,124 +949,124 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">重生成标注实体</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1248"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1255"/>
         <source>Zoom &amp;In</source>
         <translation>放大(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1258"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1265"/>
         <source>Zoom &amp;Out</source>
         <translation>缩小(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1268"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1275"/>
         <source>&amp;Auto Zoom</source>
         <translation>自动缩放(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1277"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1284"/>
         <source>Previous &amp;View</source>
         <translation>前一视图(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1288"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1295"/>
         <source>&amp;Redraw</source>
         <translation>重画(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1311"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1318"/>
         <source>&amp;New</source>
         <translation>新建(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1321"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1328"/>
         <source>New From &amp;Template</source>
         <translation>从模板新建(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1330"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1337"/>
         <source>&amp;Open...</source>
         <translation>打开(&amp;O)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1340"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1347"/>
         <source>&amp;Save</source>
         <translation>保存(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1350"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1357"/>
         <source>Save &amp;as...</source>
         <translation>另存为(&amp;a)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1032"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1039"/>
         <source>&amp;Export as image</source>
         <translation>导出为图像(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1038"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1045"/>
         <source>&amp;Close</source>
         <translation>关闭(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1360"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1367"/>
         <source>&amp;Print...</source>
         <translation>打印(&amp;P)...</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1045"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1052"/>
         <source>Export as PDF</source>
         <translation>导出为PDF</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1371"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1378"/>
         <source>Print Pre&amp;view</source>
         <translation>打印预览(&amp;v)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1382"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1389"/>
         <source>&amp;Quit</source>
         <translation>退出(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1051"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1058"/>
         <source>&amp;Block</source>
         <translation>图块(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1059"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1066"/>
         <source>&amp;Fullscreen</source>
         <translation>全屏(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1070"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1077"/>
         <source>&amp;Grid</source>
         <translation>网格(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1072"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1079"/>
         <source>Ctrl+G</source>
         <comment>Toggle Grid</comment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1080"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1087"/>
         <source>&amp;Draft</source>
         <translation>草图(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1089"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1096"/>
         <source>&amp;Statusbar</source>
         <translation>状态栏(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1092"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1099"/>
         <source>Ctrl+I</source>
         <comment>Hide Statusbar</comment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_actionfactory.cpp" line="1097"/>
+        <location filename="../src/ui/lc_actionfactory.cpp" line="1104"/>
         <source>Focus on &amp;Command Line</source>
         <translation>聚焦命令行(&amp;C)</translation>
     </message>
@@ -1277,146 +1282,146 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">插入图块 &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="487"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="488"/>
         <source>Categories</source>
         <translation>类别</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="557"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="558"/>
         <source>&amp;File</source>
         <translation>文件(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="561"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="562"/>
         <source>Import</source>
         <translation>导入</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="591"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="592"/>
         <source>&amp;Edit</source>
         <translation>编辑(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="606"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="607"/>
         <source>Pl&amp;ugins</source>
         <translation>插件(&amp;u)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="630"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="631"/>
         <source>&amp;Tools</source>
         <translation>工具(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="679"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="680"/>
         <source>Dime&amp;nsion</source>
         <translation>标注(&amp;n)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="687"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="688"/>
         <source>&amp;Order</source>
         <translation>排序(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="755"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="756"/>
         <source>Online</source>
         <translation>在线</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="786"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="787"/>
         <source>Dock Wid&amp;gets</source>
         <translation>面板(&amp;g)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="341"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="342"/>
         <source>Order</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="612"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="613"/>
         <source>&amp;View</source>
         <translation>视图(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="223"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="448"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="224"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="449"/>
         <source>Select</source>
         <translation>选择</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="198"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="418"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="199"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="419"/>
         <source>Line</source>
         <translation>直线</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="203"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="424"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="204"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="425"/>
         <source>Circle</source>
         <translation>圆</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="650"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="651"/>
         <source>&amp;Curve</source>
         <translation>曲线(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="208"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="430"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="209"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="431"/>
         <source>Curve</source>
         <translation>曲线</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="213"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="436"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="214"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="437"/>
         <source>Ellipse</source>
         <translation>椭圆</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="218"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="442"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="219"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="443"/>
         <source>Polyline</source>
         <translation>折线</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="228"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="454"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="229"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="455"/>
         <source>Dimension</source>
         <translation>标注</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="233"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="460"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="234"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="461"/>
         <source>Modify</source>
         <translation>修改</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="238"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="466"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="239"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="467"/>
         <source>Info</source>
         <translation>查询</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="370"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="371"/>
         <source>Pen</source>
         <translation>画笔</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="381"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="382"/>
         <source>Dock Areas</source>
         <translation>面板区域</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="580"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="581"/>
         <source>&amp;Options</source>
         <translation>选项(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="741"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="742"/>
         <source>&amp;Drawings</source>
         <translation>图纸(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="812"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="813"/>
         <source>&amp;Toolbars</source>
         <translation>工具栏(&amp;T)</translation>
     </message>
@@ -1429,7 +1434,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">CTRL+M</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="671"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="672"/>
         <source>&amp;Select</source>
         <translation>选择(&amp;S)</translation>
     </message>
@@ -1442,7 +1447,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">点(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="636"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="637"/>
         <source>&amp;Line</source>
         <translation>直线(&amp;L)</translation>
     </message>
@@ -1451,12 +1456,12 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">圆弧(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="643"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="644"/>
         <source>&amp;Circle</source>
         <translation>圆(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="657"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="658"/>
         <source>&amp;Ellipse</source>
         <translation>椭圆(&amp;E)</translation>
     </message>
@@ -1465,7 +1470,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">样条曲线(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="664"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="665"/>
         <source>&amp;Polyline</source>
         <translation>多段线(&amp;P)</translation>
     </message>
@@ -1474,7 +1479,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">标注(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="697"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="698"/>
         <source>&amp;Modify</source>
         <translation>修改(&amp;M)</translation>
     </message>
@@ -1483,7 +1488,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">捕捉(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="706"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="707"/>
         <source>&amp;Info</source>
         <translation>查询(&amp;I)</translation>
     </message>
@@ -1504,8 +1509,8 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">&amp;CAM</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2391"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="761"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2395"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="762"/>
         <source>About</source>
         <translation>关于</translation>
     </message>
@@ -1522,7 +1527,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">窗口(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="751"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="752"/>
         <source>&amp;Help</source>
         <translation>帮助(&amp;H)</translation>
     </message>
@@ -1535,12 +1540,12 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">选择画笔</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="365"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="366"/>
         <source>Snap Selection</source>
         <translation>选择捕捉点方式</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="374"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="375"/>
         <source>Tool Options</source>
         <translation>工具选项</translation>
     </message>
@@ -1550,23 +1555,23 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">CAD 工具</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="268"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="269"/>
         <source>Layer List</source>
         <translation>图层列表</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="278"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="279"/>
         <source>Block List</source>
         <translation>图块列表</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="288"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="289"/>
         <source>Library Browser</source>
         <translation>库浏览器</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2803"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="300"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2807"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="301"/>
         <source>Command line</source>
         <translation>命令行</translation>
     </message>
@@ -1575,32 +1580,32 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">&amp;%1 %2</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="810"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="814"/>
         <source>Su&amp;b-Window mode</source>
-        <translation>子窗口模式</translation>
+        <translation>子窗口模式(&amp;b)</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="814"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="818"/>
         <source>&amp;Cascade</source>
         <translation>层叠(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="815"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="819"/>
         <source>&amp;Tile</source>
         <translation>平铺(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="816"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="820"/>
         <source>Tile &amp;Vertically</source>
         <translation>纵向平铺(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="817"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="821"/>
         <source>Tile &amp;Horizontally</source>
         <translation>水平平铺(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="812"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="816"/>
         <source>Ta&amp;b mode</source>
         <translation>标签模式(&amp;b)</translation>
     </message>
@@ -1610,107 +1615,107 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation>最近的文件</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1074"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1078"/>
         <source>Creating new file...</source>
         <translation>新建文件...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1123"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1127"/>
         <source>Block &apos;%1&apos;</source>
         <translation>图块 &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1125"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1129"/>
         <source>unnamed document %1</source>
         <translation>未命名文档 %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1180"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1184"/>
         <source>New Drawing created.</source>
         <translation>新图纸已创建.</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1235"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1239"/>
         <source>New document from template: </source>
         <translation>从模板新建文档: </translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1283"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1287"/>
         <source>Select Template aborted</source>
         <translation>退出选择模板</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2413"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2417"/>
         <source>Compiler: Microsoft Visual C++</source>
         <translation>编译器：微软 Visual C++</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2417"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2421"/>
         <source>Boost Version: %1.%2.%3</source>
         <translation>Boost版本：%1.%2.%3</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2424"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2428"/>
         <source>Copy</source>
         <translation>复制</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2432"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2436"/>
         <source>Contributors</source>
         <translation>贡献人员</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2434"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2438"/>
         <source>License</source>
         <translation>许可</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2448"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2452"/>
         <source>System</source>
         <translation>系统</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2620"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2624"/>
         <source>Help Links</source>
         <translation>帮助链接</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2647"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2651"/>
         <source>Toolbars</source>
         <translation>工具栏</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2652"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2656"/>
         <source>Dockwidgets</source>
         <translation>面板</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2679"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2683"/>
         <source>Opening recent file...</source>
         <translation>最近打开文件...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2885"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2889"/>
         <source>Toolbar Creator</source>
         <translation>工具栏创建器</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2951"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2955"/>
         <source>Menu Creator</source>
         <translation>菜单创建器</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2976"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2980"/>
         <source>Menu Assigner</source>
         <translation>菜单指定</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1415"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1419"/>
         <source>Warning: File already opened : </source>
         <translation>警告: 文件已被打开.</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1955"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1959"/>
         <source>Export as PDF</source>
         <translation>导出为PDF</translation>
     </message>
@@ -1719,7 +1724,7 @@ distance between points=%2 is larger than diameter=%3</source>
         <translation type="obsolete">找不到帮助文件</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1299"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1303"/>
         <source>Cannot open the file
 %1
 Please check the permissions.</source>
@@ -1733,38 +1738,38 @@ Please check the permissions.</source>
         <translation>网格状态</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1525"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1529"/>
         <source>Loaded document: </source>
         <translation>已加载文档: </translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1531"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1535"/>
         <source>Opening aborted</source>
         <translation>打开中止</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1545"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1549"/>
         <source>Saving drawing...</source>
         <translation>保存图纸...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1557"/>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1620"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1561"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1624"/>
         <source>Saved drawing: %1</source>
         <translation>已保存图纸: %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1560"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1564"/>
         <source>Cannot save the file </source>
         <translation>无法保存文件 </translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1562"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1566"/>
         <source> , please check the filename and permissions.</source>
         <translation> , 请检查文件名及操作权限.</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1612"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1616"/>
         <source>Cannot save the file
 %1
 Please check the permissions.</source>
@@ -1773,12 +1778,12 @@ Please check the permissions.</source>
 请检查权限.</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2409"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2413"/>
         <source>Compiler: Clang %1.%2.%3</source>
         <translation>编译器：Clang %1.%2.%3</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2411"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2415"/>
         <source>Compiler: GNU GCC %1.%2.%3</source>
         <translation>编译器： GNU GCC %1.%2.%d</translation>
     </message>
@@ -1787,7 +1792,7 @@ Please check the permissions.</source>
         <translation type="obsolete">编译器：微软 Visual C++&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2416"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2420"/>
         <source>Qt Version: %1</source>
         <translation>Qt版本：%1</translation>
     </message>
@@ -1796,31 +1801,31 @@ Please check the permissions.</source>
         <translation type="obsolete">请资助LibreCAD项目以维护代码及网站</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1588"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1592"/>
         <source>Saving drawing under new filename...</source>
         <translation>使用新文件名保存图纸...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1132"/>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1509"/>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1600"/>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2240"/>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2587"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1136"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1513"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1604"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2244"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2591"/>
         <source>Draft Mode</source>
         <translation>草图模式</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="322"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="323"/>
         <source>File</source>
         <translation>文件</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="565"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="566"/>
         <source>Export</source>
         <translation>导出</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="329"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="330"/>
         <source>Edit</source>
         <translation>编辑</translation>
     </message>
@@ -1829,7 +1834,7 @@ Please check the permissions.</source>
         <translation type="obsolete">绘图&amp;图层顺序</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="350"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="351"/>
         <source>View</source>
         <translation>视图</translation>
     </message>
@@ -1838,7 +1843,7 @@ Please check the permissions.</source>
         <translation type="obsolete">文本(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1452"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1456"/>
         <source>Cannot open the file
 %1
 Please check its existence and permissions.</source>
@@ -1847,22 +1852,22 @@ Please check its existence and permissions.</source>
 请检查文件是否存在及其权限</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1530"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1534"/>
         <source>File &apos;%1&apos; does not exist. Opening aborted</source>
         <translation>文件 %1 不存在。打开终止</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1633"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1637"/>
         <source>Auto-saving drawing...</source>
         <translation>自动保存图纸...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1641"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1645"/>
         <source>Auto-saved drawing</source>
         <translation>自动保存的图纸</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1646"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1650"/>
         <source>Cannot auto-save the file
 %1
 Please check the permissions.
@@ -1873,57 +1878,57 @@ Auto-save disabled.</source>
 自动保存已禁用.</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1651"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1655"/>
         <source>Auto-saving failed</source>
         <translation>自动保存失败</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1664"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1668"/>
         <source>Exporting drawing...</source>
         <translation>导出图纸...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1701"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1705"/>
         <source>Export as</source>
         <translation>导出为</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1754"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1758"/>
         <source>Exported: %1</source>
         <translation>导出: %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1794"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1798"/>
         <source>Exporting...</source>
         <translation>导出...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1870"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1874"/>
         <source>Export complete</source>
         <translation>导出所有</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1872"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1876"/>
         <source>Export failed!</source>
         <translation>导出失败!</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1924"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1928"/>
         <source>Printing...</source>
         <translation>打印...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2053"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2057"/>
         <source>Printing complete</source>
         <translation>打印所有</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2132"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2136"/>
         <source>Print preview for %1</source>
         <translation>%1 打印预览</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2196"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2200"/>
         <source>Exiting application...</source>
         <translation>退出程序...</translation>
     </message>
@@ -1936,7 +1941,7 @@ Auto-save disabled.</source>
         <translation type="obsolete">关于...</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2407"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2411"/>
         <source>Version: %1</source>
         <translation>版本: %1</translation>
     </message>
@@ -1945,12 +1950,12 @@ Auto-save disabled.</source>
         <translation type="obsolete">SCM 版本: %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2847"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2851"/>
         <source>Device Options</source>
         <translation>设备选项</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2850"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2854"/>
         <source>Device</source>
         <translation>设备</translation>
     </message>
@@ -1963,7 +1968,7 @@ Auto-save disabled.</source>
         <translation type="obsolete">SVN修订: %1</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2415"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2419"/>
         <source>Compiled on: %1</source>
         <translation>编译时间: %1</translation>
     </message>
@@ -2142,7 +2147,7 @@ Auto-save disabled.</source>
 <context>
     <name>QG_ActionHandler</name>
     <message>
-        <location filename="../src/ui/qg_actionhandler.cpp" line="1093"/>
+        <location filename="../src/ui/qg_actionhandler.cpp" line="1097"/>
         <source>escape</source>
         <comment>escape, go back from action steps</comment>
         <translation>退出</translation>
@@ -7444,9 +7449,24 @@ Please choose the unit you want to use for new drawings and your preferred langu
         <translation>仍未提供文本.</translation>
     </message>
     <message>
-        <location filename="../src/ui/forms/qg_exitdialog.cpp" line="75"/>
+        <location filename="../src/ui/forms/qg_exitdialog.cpp" line="77"/>
         <source>Save As...</source>
         <translation>另存为...</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/forms/qg_exitdialog.cpp" line="79"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/forms/qg_exitdialog.cpp" line="80"/>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <location filename="../src/ui/forms/qg_exitdialog.cpp" line="81"/>
+        <source>Save</source>
+        <translation>保存</translation>
     </message>
 </context>
 <context>
@@ -9010,10 +9030,10 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QMessageBox</name>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1302"/>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1456"/>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1611"/>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1645"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1306"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1460"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1615"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1649"/>
         <location filename="../src/ui/qg_dialogfactory.cpp" line="166"/>
         <source>Warning</source>
         <translation>警告</translation>
@@ -9404,24 +9424,24 @@ Do you want to replace it?</source>
         <translation>打开图纸</translation>
     </message>
     <message>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1355"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1356"/>
         <source>enter an integer number</source>
         <translation>输入整数</translation>
     </message>
     <message>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1359"/>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1377"/>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1394"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1360"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1378"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1395"/>
         <source>LibreCAD query</source>
         <translation>LibreCAD查询</translation>
     </message>
     <message>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1373"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1374"/>
         <source>enter a number</source>
         <translation>输入数值</translation>
     </message>
     <message>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1390"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1391"/>
         <source>enter text</source>
         <translation>输入文字</translation>
     </message>
@@ -11073,13 +11093,13 @@ Continue?</source>
         <translation type="unfinished">视图</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2627"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2631"/>
         <location filename="../src/ui/lc_actiongroupmanager.cpp" line="81"/>
         <source>Widgets</source>
         <translation type="unfinished">窗体</translation>
     </message>
     <message>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="393"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="394"/>
         <source>Creators</source>
         <translation type="unfinished">创建器</translation>
     </message>
@@ -11089,43 +11109,43 @@ Continue?</source>
         <translation type="unfinished">画笔精灵</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="1493"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="1497"/>
         <source>Invalid objects removed:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2623"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2627"/>
         <source>Wiki</source>
         <translation type="unfinished">维基</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2624"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2628"/>
         <source>User&apos;s Manual</source>
         <translation type="unfinished">用户手册</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2625"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2629"/>
         <source>Commands</source>
         <translation type="unfinished">命令</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2626"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2630"/>
         <source>Style Sheets</source>
         <translation type="unfinished">样式表</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2629"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2633"/>
         <source>Release Information</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="3163"/>
-        <location filename="../src/ui/lc_widgetfactory.cpp" line="765"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="3167"/>
+        <location filename="../src/ui/lc_widgetfactory.cpp" line="766"/>
         <source>License</source>
         <translation type="unfinished">许可</translation>
     </message>
     <message>
-        <location filename="../src/main/qc_applicationwindow.cpp" line="2628"/>
+        <location filename="../src/main/qc_applicationwindow.cpp" line="2632"/>
         <source>Forum</source>
         <translation type="unfinished">论坛</translation>
     </message>
@@ -12774,6 +12794,34 @@ Continue?</source>
         <location filename="../src/actions/rs_actiondrawlinepolygon.cpp" line="200"/>
         <source>Not a valid expression</source>
         <translation>无效表达式</translation>
+    </message>
+</context>
+<context>
+    <name>RS_ActionDrawLinePolygonCenTan</name>
+    <message>
+        <location filename="../src/actions/rs_actiondrawlinepolygon3.cpp" line="112"/>
+        <source>Specify center</source>
+        <translation type="unfinished">指定中心</translation>
+    </message>
+    <message>
+        <location filename="../src/actions/rs_actiondrawlinepolygon3.cpp" line="117"/>
+        <source>Specify a tangent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/actions/rs_actiondrawlinepolygon3.cpp" line="121"/>
+        <source>Enter number:</source>
+        <translation type="unfinished">输入数值:</translation>
+    </message>
+    <message>
+        <location filename="../src/actions/rs_actiondrawlinepolygon3.cpp" line="171"/>
+        <source>Not a valid number. Try 1..9999</source>
+        <translation type="unfinished">无效数值. 请输入1..9999</translation>
+    </message>
+    <message>
+        <location filename="../src/actions/rs_actiondrawlinepolygon3.cpp" line="174"/>
+        <source>Not a valid expression</source>
+        <translation type="unfinished">无效表达式</translation>
     </message>
 </context>
 <context>

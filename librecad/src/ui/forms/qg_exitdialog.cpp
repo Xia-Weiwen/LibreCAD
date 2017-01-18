@@ -72,8 +72,14 @@ void QG_ExitDialog::init()
 {
 	QPushButton * bSave = ui->buttonBox->button(QDialogButtonBox::Save);
 	QPushButton * bSaveAs = ui->buttonBox->button(QDialogButtonBox::SaveAll);
+    QPushButton * bCancel = ui->buttonBox->button(QDialogButtonBox::Cancel);
+    QPushButton * bClose = ui->buttonBox->button(QDialogButtonBox::Close);
     bSaveAs->setText(tr("Save As..."));
     bSaveAs->setIcon(bSave->icon());
+    bCancel->setText(tr("Cancel")); // for translations
+    bClose->setText(tr("Close"));
+    bSave->setText(tr("Save"));
+
     //set dlg icon
     QMessageBox mb("","",QMessageBox::Question, QMessageBox::Ok, Qt::NoButton, Qt::NoButton);
 	ui->l_icon->setPixmap( mb.iconPixmap());

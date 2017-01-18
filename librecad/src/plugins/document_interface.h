@@ -494,6 +494,15 @@ public:
     * \return a string with the converted number.
     */
     virtual QString realToStr(const qreal num, const int units = 0, const int prec = 0) = 0;
+
+    /**
+     * @brief selectDirection
+     * @param ref Reference point.
+     * @param candidates Candidate directions to choose from. If it's empty, users can choose direction arbitrarily.
+     * @param msg Tip message.
+     * @return Selected angle in rad ([-PI, PI]). Return -2 * PI if user cancelled.
+     */
+    virtual double selectDirection(QPointF* ref, QList<double>* candidates, const QString& msg) = 0;
 };
 
 
