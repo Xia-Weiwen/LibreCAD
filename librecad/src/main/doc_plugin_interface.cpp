@@ -51,6 +51,7 @@
 #include "intern/qc_actiongetselect.h"
 #include "intern/qc_actiongetent.h"
 #include "intern/lc_actiongetdirection.h"
+#include "intern/lc_actiongetlineend.h"
 #include "rs_math.h"
 #include "rs_debug.h"
 // #include <QDebug>
@@ -1479,4 +1480,24 @@ bool Doc_plugin_interface::createBlockWithEntities(const QString& name,
     // add block to graphic
     bool ret = doc->getGraphic()->addBlock(block);
     return ret;
+}
+
+QPointF *Doc_plugin_interface::getLineEndWithPreview(QPointF *start, const QString& msg)
+{
+    LC_ActionGetLineEnd* a = new LC_ActionGetLineEnd(*doc, *gView, start);
+    if (a)
+    {
+        a->setMessage(msg);
+        gView->killAllActions();
+        gView->setCurrentAction(a);
+        QEventLoop ev;
+        while (!a->isFinished())
+        {
+            ev.processEvents();
+            if (!gView->getEventHandler()->hasAction())
+                break;
+        }
+    }
+    gView->killAllActions();
+    return a->getEndPoint();
 }

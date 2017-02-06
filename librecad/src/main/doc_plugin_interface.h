@@ -134,6 +134,9 @@ public:
     /* method to create blocks from plugin*/
     bool createBlockWithEntities(const QString& name, QList<Plug_Entity*>* entList,
                                  QPointF *reference);
+
+    /* method to draw line with preview from plugin*/
+    QPointF* getLineEndWithPreview(QPointF* start, const QString &msg);
 private:
     RS_Document *doc;
     RS_Graphic *docGr;

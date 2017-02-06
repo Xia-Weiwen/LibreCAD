@@ -43,7 +43,11 @@ void LC_ActionGetDirection::mouseMoveEvent(QMouseEvent *e)
     {
         preview->addEntity(line);
     }
-//    ((RS_Preview*)(preview.get()))->setPen(_pen);
+    RS_Vector origin_on_screen = RS_Vector{graphicView->toGuiX(_origin.x()),
+            graphicView->toGuiY(_origin.y())};
+    RS_Vector* origin_on_graph = new RS_Vector(graphicView->toGraph(origin_on_screen));
+    RS_CircleData* originData = new RS_CircleData{*origin_on_graph, 1.0};
+    preview->addEntity(new RS_Circle{0, *originData});
     preview->setPen(_pen);
     drawPreview();
 }

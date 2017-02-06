@@ -514,6 +514,14 @@ public:
     virtual bool createBlockWithEntities(const QString& name,
                                          QList<Plug_Entity*>* entList,
                                          QPointF* reference) = 0;
+
+    /**
+     * @brief getLineEndWithPreview
+     * @param start the start point
+     * @param msg message to show on the command window
+     * @return end point or null if user cancelled
+     */
+    virtual QPointF* getLineEndWithPreview(QPointF* start, const QString& msg) = 0;
 };
 
 

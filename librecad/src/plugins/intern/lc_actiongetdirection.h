@@ -3,6 +3,7 @@
 
 #include "rs_previewactioninterface.h"
 #include "rs_line.h"
+#include "rs_circle.h"
 #include <QPointF>
 #include "rs_debug.h"
 #include "rs_dialogfactory.h"
