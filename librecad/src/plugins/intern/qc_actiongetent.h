@@ -73,9 +73,10 @@ public:
     Plugin_Entity *getSelected(Doc_plugin_interface* d);
 
 private:
+    void *en;
     bool completed;
     QString mesage;
-    RS_Entity* en;
+//    RS_Entity* en;
 
 };
 
