@@ -48,7 +48,11 @@ void LC_ActionGetDirection::mouseMoveEvent(QMouseEvent *e)
     RS_Vector origin_on_screen = RS_Vector{graphicView->toGuiX(_origin.x()),
             graphicView->toGuiY(_origin.y())};
     RS_Vector* origin_on_graph = new RS_Vector(graphicView->toGraph(origin_on_screen));
-    RS_CircleData* originData = new RS_CircleData{*origin_on_graph, 1.0};
+    RS_Vector offset_on_screan = origin_on_screen + RS_Vector(2, 0);
+    RS_Vector offset_on_graph = graphicView->toGraph(offset_on_screan);
+    double radius = hypot(offset_on_graph.x - origin_on_graph->x,
+                          offset_on_graph.y - origin_on_graph->y);
+    RS_CircleData* originData = new RS_CircleData{*origin_on_graph, radius};
     preview->addEntity(new RS_Circle{0, *originData});
     preview->setPen(_pen);
     drawPreview();
