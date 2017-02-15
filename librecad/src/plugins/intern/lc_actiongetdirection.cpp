@@ -36,7 +36,9 @@ void LC_ActionGetDirection::trigger()
 
 void LC_ActionGetDirection::mouseMoveEvent(QMouseEvent *e)
 {
-    RS_Vector mouse = snapPoint(e);
+//    RS_Vector mouse = snapPoint(e);
+    RS_Vector mouse = RS_Vector(graphicView->toGraphX(e->x()),
+                                graphicView->toGraphY(e->y()));
     deletePreview();
     QList<RS_Line*>* arrowLines = createArrow(mouse);
     for (RS_Line* line : *arrowLines)
