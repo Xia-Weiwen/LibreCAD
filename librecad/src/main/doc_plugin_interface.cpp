@@ -1502,3 +1502,15 @@ QPointF *Doc_plugin_interface::getLineEndWithPreview(QPointF *start, const QStri
     gView->killAllActions();
     return a->getEndPoint();
 }
+
+void Doc_plugin_interface::removeBlock(QString name)
+{
+    RS_BlockList* blocks = doc->getGraphic()->getBlockList();
+    for (int i = 0; i < blocks->count();)
+    {
+        if (blocks->at(i)->getName() == name)
+        {
+            doc->getGraphic()->removeBlock(blocks->at(i));
+        }
+    }
+}

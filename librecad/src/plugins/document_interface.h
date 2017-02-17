@@ -522,6 +522,8 @@ public:
      * @return end point or null if user cancelled
      */
     virtual QPointF* getLineEndWithPreview(QPointF* start, const QString& msg) = 0;
+
+    virtual void removeBlock(QString name) = 0;
 };
 
 

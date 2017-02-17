@@ -137,6 +137,9 @@ public:
 
     /* method to draw line with preview from plugin*/
     QPointF* getLineEndWithPreview(QPointF* start, const QString &msg);
+
+    /* method to remove block from graphic view */
+    void removeBlock(QString name);
 private:
     RS_Document *doc;
     RS_Graphic *docGr;
