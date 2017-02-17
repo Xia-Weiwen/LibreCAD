@@ -53,6 +53,7 @@ public:
 
     void setMessage(QString msg);
     bool isFinished() { return finished; }
+    void start();
     const double& getSelectedDirection() const {return _selected_dir; }
 
 private:

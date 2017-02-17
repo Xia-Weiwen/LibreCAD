@@ -1446,6 +1446,7 @@ double Doc_plugin_interface::selectDirection(QPointF* ref, QList<double>* candid
         a->setMessage(msg);
         gView->killAllActions();
         gView->setCurrentAction(a);
+        a->start();
         QEventLoop ev;
         while (!a->isFinished())
         {

@@ -236,3 +236,12 @@ int LC_ActionGetDirection::findNearestDirection(RS_Vector mouse)
     }
     return min_index;
 }
+
+void LC_ActionGetDirection::start()
+{
+    QMouseEvent mEvent(QEvent::MouseMove,
+                       QPointF(graphicView->toGuiX(_origin.x()),
+                               graphicView->toGuiY(_origin.y())),
+                       Qt::LeftButton, Qt::NoButton, Qt::NoModifier);
+    mouseMoveEvent(&mEvent);
+}
