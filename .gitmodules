@@ -1,0 +1,3 @@
+[submodule "plugins/WEDM-V1"]
+	path = plugins/WEDM-V1
+	url = https://git.oschina.net/xia_weiwen/LibreCAD-WEDM-Plugin.git
