@@ -459,6 +459,9 @@ void Plugin_Entity::updateData(QHash<int, QVariant> *data){
         if (hash.contains(DPI::ENDANGLE)) {
             arc->setAngle2( (hash.take(DPI::ENDANGLE)).toDouble() );
         }
+        if (hash.contains(DPI::REVERSED)) {           //add by txmy 20170223
+            arc->setReversed( (hash.take(DPI::REVERSED)).toBool() );
+        }
         break;}
     case RS2::EntityCircle: {
         RS_Circle *cir = static_cast<RS_Circle*>(ec);
