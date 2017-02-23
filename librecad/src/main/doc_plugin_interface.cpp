@@ -1512,5 +1512,9 @@ void Doc_plugin_interface::removeBlock(QString name)
         {
             doc->getGraphic()->removeBlock(blocks->at(i));
         }
+        else
+        {
+            ++i;
+        }
     }
 }
