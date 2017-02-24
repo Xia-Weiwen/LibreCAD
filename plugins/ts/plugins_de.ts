@@ -56,12 +56,12 @@
     <message>
         <location filename="../gear/gear.cpp" line="33"/>
         <source>Gear creation plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Zahnrad Plugin</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="40"/>
         <source>Gear plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Zahnrad Plugin</translation>
     </message>
 </context>
 <context>
@@ -256,22 +256,22 @@
     <message>
         <location filename="../list/list.cpp" line="190"/>
         <source>Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Skalierung</translation>
     </message>
     <message>
         <location filename="../list/list.cpp" line="193"/>
         <source>Rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotation</translation>
     </message>
     <message>
         <location filename="../list/list.cpp" line="199"/>
         <source>Columns/Rows</source>
-        <translation type="unfinished"></translation>
+        <translation>Spalten/Reihen</translation>
     </message>
     <message>
         <location filename="../list/list.cpp" line="203"/>
         <source>Column/Row Spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>Spalten/Reihen Abstand</translation>
     </message>
     <message>
         <location filename="../list/list.cpp" line="210"/>
@@ -843,57 +843,57 @@
     <message>
         <location filename="../gear/gear.cpp" line="66"/>
         <source>Draw a gear</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Zahnrad erstellen</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="71"/>
         <source>Number of teeth</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl Zähne</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="79"/>
         <source>Circular pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>Teilkreisdurchmesser</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="87"/>
         <source>Pressure angle (deg)</source>
-        <translation type="unfinished"></translation>
+        <translation>Eingriffswinkel (Grad)</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="95"/>
         <source>Addendum</source>
-        <translation type="unfinished"></translation>
+        <translation>Zahnkopfhöhe</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="103"/>
         <source>Dedendum</source>
-        <translation type="unfinished"></translation>
+        <translation>Zahnfusshöhe</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="111"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="114"/>
         <source>Spur</source>
-        <translation type="unfinished"></translation>
+        <translation>Stirnrad</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="115"/>
         <source>Ring</source>
-        <translation type="unfinished"></translation>
+        <translation>Hohlrad</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="119"/>
         <source>Accept</source>
-        <translation type="unfinished">Übernehmen</translation>
+        <translation>Übernehmen</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="124"/>
         <source>Cancel</source>
-        <translation type="unfinished">Abbrechen</translation>
+        <translation>Abbrechen</translation>
     </message>
 </context>
 <context>

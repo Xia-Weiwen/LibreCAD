@@ -762,7 +762,7 @@ la distància entre els punts=%2 és més gran que el diàmetre=%3</translation>
     </message>
     <message>
         <source>New From &amp;Template</source>
-        <translation>Nou des de plan&amp;tilla</translation>
+        <translation>Nou a partir d&apos;una plan&amp;tilla</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
@@ -913,6 +913,28 @@ la distància entre els punts=%2 és més gran que el diàmetre=%3</translation>
     <message>
         <source>Export as</source>
         <translation>Exporta com</translation>
+    </message>
+</context>
+<context>
+    <name>LC_ActionGetDirection</name>
+    <message>
+        <source>Select direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel·la</translation>
+    </message>
+</context>
+<context>
+    <name>LC_ActionGetLineEnd</name>
+    <message>
+        <source>Specify end point</source>
+        <translation type="unfinished">Especifiqueu el punt final</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Cancel·la</translation>
     </message>
 </context>
 <context>
@@ -1232,7 +1254,7 @@ http://forum.librecad.org/LibreCAD-dev-f4361976.html</translatorcomment>
     </message>
     <message>
         <source>Print preview for %1</source>
-        <translation>Previsualització d&apos;impressió per a %1</translation>
+        <translation>Vista prèvia de la impressió per a %1</translation>
     </message>
     <message>
         <source>New Drawing created.</source>
@@ -1427,7 +1449,7 @@ S&apos;ha desactivat el desament automàtic.</translation>
     </message>
     <message>
         <source>New document from template: </source>
-        <translation>Document nou des de plantilla: </translation>
+        <translation>Document nou a partir d&apos;una plantilla: </translation>
     </message>
     <message>
         <source>Select Template aborted</source>
@@ -3277,11 +3299,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Preview</source>
-        <translation>Previsualització</translation>
+        <translation>Vista prèvia</translation>
     </message>
     <message>
         <source>Enable Preview</source>
-        <translation>Activa la previsualització</translation>
+        <translation>Habilita la vista prèvia</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -4328,7 +4350,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     </message>
     <message>
         <source>Preview</source>
-        <translation>Previsualització</translation>
+        <translation>Vista prèvia</translation>
     </message>
     <message>
         <source>linear</source>
@@ -9271,7 +9293,7 @@ Voleu continuar?</translation>
     </message>
     <message>
         <source>Available commands:</source>
-        <translation>Odres disponibles:</translation>
+        <translation>Ordres disponibles:</translation>
     </message>
     <message>
         <source>cal</source>
@@ -13580,7 +13602,7 @@ Voleu continuar?</translation>
     </message>
     <message>
         <source>Counterclockwise</source>
-        <translation>En sentit anti-horari</translation>
+        <translation>En sentit antihorari</translation>
     </message>
     <message>
         <source>Clockwise</source>
@@ -14081,7 +14103,7 @@ Voleu continuar?</translation>
     </message>
     <message>
         <source>Counter Clockwise</source>
-        <translation>En sentit anti-horari</translation>
+        <translation>En sentit antihorari</translation>
     </message>
     <message>
         <source>Clockwise</source>

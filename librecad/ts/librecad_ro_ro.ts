@@ -860,6 +860,28 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
 </context>
 <context>
+    <name>LC_ActionGetDirection</name>
+    <message>
+        <source>Select direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Renuntare</translation>
+    </message>
+</context>
+<context>
+    <name>LC_ActionGetLineEnd</name>
+    <message>
+        <source>Specify end point</source>
+        <translation type="unfinished">Specificati punctul de final</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Renuntare</translation>
+    </message>
+</context>
+<context>
     <name>LC_DeviceOptions</name>
     <message>
         <source>Form</source>

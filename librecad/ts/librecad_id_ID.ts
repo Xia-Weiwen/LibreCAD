@@ -1015,6 +1015,32 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
 </context>
 <context>
+    <name>LC_ActionGetDirection</name>
+    <message>
+        <location filename="../src/plugins/intern/lc_actiongetdirection.cpp" line="15"/>
+        <source>Select direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/plugins/intern/lc_actiongetdirection.cpp" line="106"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Batal</translation>
+    </message>
+</context>
+<context>
+    <name>LC_ActionGetLineEnd</name>
+    <message>
+        <location filename="../src/plugins/intern/lc_actiongetlineend.cpp" line="9"/>
+        <source>Specify end point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/plugins/intern/lc_actiongetlineend.cpp" line="85"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Batal</translation>
+    </message>
+</context>
+<context>
     <name>LC_DeviceOptions</name>
     <message>
         <location filename="../src/ui/lc_deviceoptions.ui" line="14"/>
@@ -7934,24 +7960,24 @@ Do you want to replace it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1356"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1358"/>
         <source>enter an integer number</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1360"/>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1378"/>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1395"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1362"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1380"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1397"/>
         <source>LibreCAD query</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1374"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1376"/>
         <source>enter a number</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/main/doc_plugin_interface.cpp" line="1391"/>
+        <location filename="../src/main/doc_plugin_interface.cpp" line="1393"/>
         <source>enter text</source>
         <translation type="unfinished"></translation>
     </message>
