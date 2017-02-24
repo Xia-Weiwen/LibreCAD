@@ -417,7 +417,7 @@ void RS_Text::update() {
     RS_EntityContainer::move(data.insertionPoint);
 
     forcedCalculateBorders();
-
+    data.widthRel = 1.0;//make "updateData" the same with the "addText"_txmy
     RS_DEBUG->print("RS_Text::update: OK");
 }
 
