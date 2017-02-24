@@ -881,6 +881,28 @@ distância entre pontos=%2 maior que o diâmetro=%3</translation>
     </message>
 </context>
 <context>
+    <name>LC_ActionGetDirection</name>
+    <message>
+        <source>Select direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LC_ActionGetLineEnd</name>
+    <message>
+        <source>Specify end point</source>
+        <translation type="unfinished">Especifique o ponto final</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>LC_DeviceOptions</name>
     <message>
         <source>Form</source>

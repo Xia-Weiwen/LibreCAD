@@ -942,6 +942,28 @@ Abstand zwischen den Punkten=%2 ist größer als der Durchmesser=%3</translation
     </message>
 </context>
 <context>
+    <name>LC_ActionGetDirection</name>
+    <message>
+        <source>Select direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Abbrechen</translation>
+    </message>
+</context>
+<context>
+    <name>LC_ActionGetLineEnd</name>
+    <message>
+        <source>Specify end point</source>
+        <translation type="unfinished">Endpunkt angeben</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Abbrechen</translation>
+    </message>
+</context>
+<context>
     <name>LC_CustomToolbar</name>
     <message>
         <source>Add or Remove Action</source>
@@ -7306,15 +7328,15 @@ Bitte wählen sie die Einheit für neue Zeichnungen und die bevorzugte Sprache.&
     </message>
     <message>
         <source>Minimal Grid Spacing (p&amp;x):</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimaler Gitterabstand (p&amp;x)</translation>
     </message>
     <message>
         <source>N&amp;umber of preview entities:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzahl Vorscha&amp;uobjekte:</translation>
     </message>
     <message>
         <source>Don&apos;t use native OS file open dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht den Standard-Öffnen-Dialog verwenden</translation>
     </message>
 </context>
 <context>
@@ -11674,15 +11696,15 @@ Fortfahren?</translation>
     </message>
     <message>
         <source>Keycode Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Tastaturcodes Modus</translation>
     </message>
     <message>
         <source>Paste Multiple Commands</source>
-        <translation type="unfinished"></translation>
+        <translation>Mehrzeilige Kommandos einfügen</translation>
     </message>
     <message>
         <source>License</source>
-        <translation type="unfinished">Lizenz</translation>
+        <translation>Lizenz</translation>
     </message>
 </context>
 <context>
@@ -17173,7 +17195,7 @@ Fortfahren?</translation>
     <name>TextFileViewer</name>
     <message>
         <source>Frame</source>
-        <translation type="unfinished">Rahmen</translation>
+        <translation>Rahmen</translation>
     </message>
 </context>
 <context>

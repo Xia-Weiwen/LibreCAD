@@ -920,6 +920,28 @@ attālums starp punktiem=%2 ir lielāks nekā diametrs=%3</translation>
     </message>
 </context>
 <context>
+    <name>LC_ActionGetDirection</name>
+    <message>
+        <source>Select direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Atcelt</translation>
+    </message>
+</context>
+<context>
+    <name>LC_ActionGetLineEnd</name>
+    <message>
+        <source>Specify end point</source>
+        <translation type="unfinished">Norādiet beigu punktu</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">Atcelt</translation>
+    </message>
+</context>
+<context>
     <name>LC_CustomToolbar</name>
     <message>
         <source>Add or Remove Action</source>

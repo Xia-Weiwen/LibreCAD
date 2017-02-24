@@ -909,6 +909,28 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
 </context>
 <context>
+    <name>LC_ActionGetDirection</name>
+    <message>
+        <source>Select direction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">中止</translation>
+    </message>
+</context>
+<context>
+    <name>LC_ActionGetLineEnd</name>
+    <message>
+        <source>Specify end point</source>
+        <translation type="unfinished">終点指示</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished">中止</translation>
+    </message>
+</context>
+<context>
     <name>LC_CustomToolbar</name>
     <message>
         <source>Add or Remove Action</source>
@@ -1780,7 +1802,7 @@ Please check its existence and permissions.</source>
     </message>
     <message>
         <source>Dock Wid&amp;gets</source>
-        <translation>ドック ウィジット(&amp;g)</translation>
+        <translation>ドックウィジェット(&amp;g)</translation>
     </message>
     <message>
         <source>Recent Files</source>
@@ -4190,15 +4212,15 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>Minimal Grid Spacing (p&amp;x):</source>
-        <translation type="unfinished"></translation>
+        <translation>最小のグリッド間隔 (p&amp;x):</translation>
     </message>
     <message>
         <source>N&amp;umber of preview entities:</source>
-        <translation type="unfinished"></translation>
+        <translation>表示要素数(&amp;u)：</translation>
     </message>
     <message>
         <source>Don&apos;t use native OS file open dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>ネイティブOSのファイルを開くダイアログは使用しない</translation>
     </message>
 </context>
 <context>
@@ -8109,11 +8131,11 @@ Continue?</source>
     </message>
     <message>
         <source>Keycode Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>キーコード・モード</translation>
     </message>
     <message>
         <source>Paste Multiple Commands</source>
-        <translation type="unfinished"></translation>
+        <translation>複数コマンドの貼り付け</translation>
     </message>
     <message>
         <source>License</source>
