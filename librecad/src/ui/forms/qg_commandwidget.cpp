@@ -115,6 +115,9 @@ bool QG_CommandWidget::eventFilter(QObject */*obj*/, QEvent *event)
                     break;
             case Qt::Key_Escape:
                 return false;
+            case Qt::Key_F4:
+                system("wmctrl -a mainwindow");
+                return false;
             default:
                 break;
 		}
