@@ -1521,3 +1521,9 @@ void Doc_plugin_interface::removeBlock(QString name)
         }
     }
 }
+
+void Doc_plugin_interface::quitSelect()
+{
+    gView->killAllActions();
+    return;
+}
