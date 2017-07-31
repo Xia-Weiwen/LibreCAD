@@ -18,8 +18,7 @@ SUBDIRS     = \
         sample \
         picfile \
         plotequation \
-        gear \
-        WEDM-V1
+        gear
 
 TRANSLATIONS = ./ts/plugins_ar.ts \
     ./ts/plugins_ca.ts \
