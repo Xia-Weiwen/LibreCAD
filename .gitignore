@@ -79,3 +79,4 @@ core.*
 .qmake.stash
 
 plugins/WEDM-V1/*
+plugins/drilling/*
