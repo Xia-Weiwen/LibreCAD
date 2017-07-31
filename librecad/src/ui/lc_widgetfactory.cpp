@@ -749,23 +749,23 @@ void LC_WidgetFactory::createMenus(QMenuBar* menu_bar)
 
     // <[~ Help ~]>
 
-    QMenu* help_menu = new QMenu(QC_ApplicationWindow::tr("&Help"), menu_bar);
-    help_menu->setObjectName("Help");
-    help_menu->setTearOffEnabled(true);
+//    QMenu* help_menu = new QMenu(QC_ApplicationWindow::tr("&Help"), menu_bar);
+//    help_menu->setObjectName("Help");
+//    help_menu->setTearOffEnabled(true);
 
-    QAction* wiki_link = new QAction(QC_ApplicationWindow::tr("Online"), main_window);
-    connect(wiki_link, SIGNAL(triggered()), main_window, SLOT(invokeLinkList()));
-    help_menu->addAction(wiki_link);
+//    QAction* wiki_link = new QAction(QC_ApplicationWindow::tr("Online"), main_window);
+//    connect(wiki_link, SIGNAL(triggered()), main_window, SLOT(invokeLinkList()));
+//    help_menu->addAction(wiki_link);
 
-    help_menu->addSeparator();
+//    help_menu->addSeparator();
 
-    QAction* help_about = new QAction(QIcon(":/main/librecad.png"), QC_ApplicationWindow::tr("About"), main_window);
-    connect(help_about, SIGNAL(triggered()), main_window, SLOT(showAboutWindow()));
-    help_menu->addAction(help_about);
+//    QAction* help_about = new QAction(QIcon(":/main/librecad.png"), QC_ApplicationWindow::tr("About"), main_window);
+//    connect(help_about, SIGNAL(triggered()), main_window, SLOT(showAboutWindow()));
+//    help_menu->addAction(help_about);
 
-    QAction* license = new QAction(QObject::tr("License"), main_window);
-    connect(license, SIGNAL(triggered()), main_window, SLOT(invokeLicenseWindow()));
-    help_menu->addAction(license);
+//    QAction* license = new QAction(QObject::tr("License"), main_window);
+//    connect(license, SIGNAL(triggered()), main_window, SLOT(invokeLicenseWindow()));
+//    help_menu->addAction(license);
 
     // <[~ Widgets Menu ~]>
 
@@ -846,5 +846,5 @@ void LC_WidgetFactory::createMenus(QMenuBar* menu_bar)
 //    menu_bar->addMenu(block_menu);
     menu_bar->addMenu(widgets_menu);
     menu_bar->addMenu(windows_menu);
-    menu_bar->addMenu(help_menu);
+//    menu_bar->addMenu(help_menu);
 }

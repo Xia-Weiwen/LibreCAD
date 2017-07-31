@@ -140,6 +140,9 @@ public:
 
     /* method to remove block from graphic view */
     void removeBlock(QString name);
+
+    /* method to quit current select */
+    void quitSelect();
 private:
     RS_Document *doc;
     RS_Graphic *docGr;
