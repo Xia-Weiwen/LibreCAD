@@ -1022,7 +1022,7 @@ la distància entre els punts=%2 és més gran que el diàmetre=%3</translation>
     </message>
     <message>
         <source>Font Size</source>
-        <translation>Mida del tipus de lletra</translation>
+        <translation>Mida de la lletra</translation>
     </message>
     <message>
         <source>Input the path of a Qt style sheet.</source>
@@ -3550,7 +3550,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     </message>
     <message>
         <source>Font</source>
-        <translation>Tipus de lletra</translation>
+        <translation>Lletra</translation>
     </message>
     <message>
         <source>&amp;Height:</source>
@@ -4150,7 +4150,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     </message>
     <message>
         <source>&amp;Line spacing:</source>
-        <translation>Espaiat de &amp;línia:</translation>
+        <translation>Inter&amp;lineat:</translation>
     </message>
 </context>
 <context>
@@ -4817,7 +4817,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     </message>
     <message>
         <source>Fonts:</source>
-        <translation>Tipus de lletres:</translation>
+        <translation>Lletres:</translation>
     </message>
     <message>
         <source>Scripts:</source>
@@ -4861,7 +4861,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     </message>
     <message>
         <source>Defaults for new drawings</source>
-        <translation>Valors predeterminats per a dibuixos nous</translation>
+        <translation>Valors predeterminats per als dibuixos nous</translation>
     </message>
     <message>
         <source>&amp;Appearance</source>
@@ -5009,7 +5009,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     </message>
     <message>
         <source>Please restart the application to apply all changes.</source>
-        <translation>Per a aplicar els canvis cal reiniciar l&apos;aplicació.</translation>
+        <translation>Reinicieu l&apos;aplicació per aplicar tots els canvis.</translation>
     </message>
     <message>
         <source>Alt+S</source>
@@ -5325,7 +5325,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     </message>
     <message>
         <source>Variable File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxer de variables:</translation>
     </message>
     <message>
         <source>Minimal Grid Spacing (p&amp;x):</source>
@@ -5337,7 +5337,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     </message>
     <message>
         <source>Don&apos;t use native OS file open dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>No utilitzis el diàleg d&apos;obertura de fitxers del SO natiu</translation>
     </message>
 </context>
 <context>
@@ -5563,7 +5563,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     <name>QG_DlgScale</name>
     <message>
         <source>Scaling Options</source>
-        <translation>Opcions d&apos;Escala</translation>
+        <translation>Opcions del canvi d&apos;escala</translation>
     </message>
     <message>
         <source>Number of copies</source>
@@ -5611,7 +5611,7 @@ Seleccioneu la unitat que voleu utilitzar per als dibuixos nous i el vostre idio
     </message>
     <message>
         <source>Isotropic Scaling</source>
-        <translation>Escalat isotròpic</translation>
+        <translation>Canvi d&apos;escala isotròpic</translation>
     </message>
     <message>
         <source>X</source>
@@ -13591,7 +13591,7 @@ Voleu continuar?</translation>
     <name>TextFileViewer</name>
     <message>
         <source>Frame</source>
-        <translation type="unfinished">Marc</translation>
+        <translation>Marc</translation>
     </message>
 </context>
 <context>
@@ -13613,7 +13613,7 @@ Voleu continuar?</translation>
     <name>Ui_ArcTangentialOptions</name>
     <message>
         <source>Tangential Arc Options</source>
-        <translation type="unfinished">Opcions d&apos;arc tangent</translation>
+        <translation>Opcions de l&apos;arc tangent</translation>
     </message>
     <message>
         <source>Radius of the tangential arc</source>

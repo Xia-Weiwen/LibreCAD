@@ -507,22 +507,22 @@ http://forum.librecad.org/LibreCAD-dev-f4361976.html</translatorcomment>
     <message>
         <location filename="../asciifile/asciifile.cpp" line="307"/>
         <source>Select file</source>
-        <translation>Selecciona el fitxer</translation>
+        <translation>Seleccioneu un fitxer</translation>
     </message>
     <message>
         <location filename="../asciifile/asciifile.cpp" line="314"/>
         <source>Point 2D layer is empty</source>
-        <translation>La capa del punt 2D és buida</translation>
+        <translation>La capa de punts 2D està buida</translation>
     </message>
     <message>
         <location filename="../asciifile/asciifile.cpp" line="317"/>
         <source>Point 3D layer is empty</source>
-        <translation>La capa del punt 3D és buida</translation>
+        <translation>La capa de punts 3D està buida</translation>
     </message>
     <message>
         <location filename="../asciifile/asciifile.cpp" line="320"/>
         <source>Point elevation layer is empty</source>
-        <translation>La capa de l&apos;alçada del punt és buida</translation>
+        <translation>La capa de l&apos;alçada dels punts està buida</translation>
     </message>
     <message>
         <location filename="../asciifile/asciifile.cpp" line="321"/>
@@ -537,7 +537,7 @@ http://forum.librecad.org/LibreCAD-dev-f4361976.html</translatorcomment>
     <message>
         <location filename="../asciifile/asciifile.cpp" line="325"/>
         <source>Point number layer is empty</source>
-        <translation>La capa del número del punt és buida</translation>
+        <translation>La capa del número de punt està buida</translation>
     </message>
     <message>
         <location filename="../asciifile/asciifile.cpp" line="326"/>
@@ -552,7 +552,7 @@ http://forum.librecad.org/LibreCAD-dev-f4361976.html</translatorcomment>
     <message>
         <location filename="../asciifile/asciifile.cpp" line="330"/>
         <source>Point code layer is empty</source>
-        <translation>La capa del codi del punt és buida</translation>
+        <translation>La capa del codi del punt està buida</translation>
     </message>
     <message>
         <location filename="../asciifile/asciifile.cpp" line="331"/>
@@ -663,7 +663,7 @@ http://forum.librecad.org/LibreCAD-dev-f4361976.html</translatorcomment>
     <message>
         <location filename="../importshp/importshp.cpp" line="167"/>
         <source>Select file</source>
-        <translation>Seleccioneu fitxer</translation>
+        <translation>Selecciona el fitxer</translation>
     </message>
     <message>
         <location filename="../importshp/importshp.cpp" line="217"/>
@@ -733,7 +733,7 @@ http://forum.librecad.org/LibreCAD-dev-f4361976.html</translatorcomment>
     <message>
         <location filename="../importshp/importshp.cpp" line="286"/>
         <source>The file %1 not exist</source>
-        <translation>El fitxer %1 no existeix</translation>
+        <translation>No existeix el fitxer %1</translation>
     </message>
 </context>
 <context>
@@ -786,12 +786,12 @@ http://forum.librecad.org/LibreCAD-dev-f4361976.html</translatorcomment>
     <message>
         <location filename="../gear/gear.cpp" line="119"/>
         <source>Accept</source>
-        <translation type="unfinished">Accepta</translation>
+        <translation>Accepta</translation>
     </message>
     <message>
         <location filename="../gear/gear.cpp" line="124"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel·la</translation>
+        <translation>Cancel·la</translation>
     </message>
 </context>
 <context>

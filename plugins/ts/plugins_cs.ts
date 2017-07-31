@@ -311,12 +311,12 @@
     <message>
         <location filename="../list/list.cpp" line="233"/>
         <source>SPLINEPOINTS</source>
-        <translation type="unfinished"></translation>
+        <translation>BODY SPLAJNY</translation>
     </message>
     <message>
         <location filename="../list/list.cpp" line="236"/>
         <source>HATCH</source>
-        <translation>ŠRAFY</translation>
+        <translation>ŠRAFA</translation>
     </message>
     <message>
         <location filename="../list/list.cpp" line="239"/>
@@ -387,12 +387,12 @@
     <message>
         <location filename="../picfile/picfile.cpp" line="36"/>
         <source>Read PIC file</source>
-        <translation type="unfinished"></translation>
+        <translation>Načíst soubor PIC</translation>
     </message>
     <message>
         <location filename="../picfile/picfile.cpp" line="42"/>
         <source>import PIC file</source>
-        <translation type="unfinished"></translation>
+        <translation>importovat soubor PIC</translation>
     </message>
 </context>
 <context>
@@ -873,7 +873,7 @@
     <message>
         <location filename="../picfile/picfile.cpp" line="75"/>
         <source>Scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Měřítko:</translation>
     </message>
     <message>
         <location filename="../picfile/picfile.cpp" line="79"/>
@@ -893,7 +893,7 @@
     <message>
         <location filename="../picfile/picfile.cpp" line="119"/>
         <source>Scale Factor is empty or invalid</source>
-        <translation type="unfinished"></translation>
+        <translation>Měřítko není zadáno nebo je neplatné</translation>
     </message>
     <message>
         <location filename="../picfile/picfile.cpp" line="132"/>
@@ -908,23 +908,23 @@
     <message>
         <location filename="../picfile/picfile.cpp" line="144"/>
         <source>%1 objects imported</source>
-        <translation type="unfinished"></translation>
+        <translation>importováno %1 objektů</translation>
     </message>
     <message>
         <location filename="../picfile/picfile.cpp" line="166"/>
         <source>picPunto drawLine: first point is empty %1</source>
-        <translation type="unfinished"></translation>
+        <translation>picPunto drawLine: první bod nezadán %1</translation>
     </message>
     <message>
         <location filename="../picfile/picfile.cpp" line="179"/>
         <source>picPunto drawLine: next point is empty %1</source>
-        <translation type="unfinished"></translation>
+        <translation>picPunto drawLine: následující bod nezadán %1</translation>
     </message>
     <message>
         <location filename="../picfile/picfile.cpp" line="258"/>
         <location filename="../picfile/picfile.cpp" line="267"/>
         <source>format error in %1</source>
-        <translation type="unfinished"></translation>
+        <translation>chyba formátu u %1</translation>
     </message>
 </context>
 <context>
@@ -999,19 +999,19 @@ Jako proměnnou (parametr) rovnice použijte t nebo x.
         <location filename="../plotequation/plotdialog.cpp" line="59"/>
         <source>Line Segments</source>
         <comment>Plot Equation to generate RS_Line segments</comment>
-        <translation type="unfinished"></translation>
+        <translation>Segmenty čáry</translation>
     </message>
     <message>
         <location filename="../plotequation/plotdialog.cpp" line="60"/>
         <source>Polyline</source>
         <comment>Plot Equation to generate RS_Polyline</comment>
-        <translation type="unfinished"></translation>
+        <translation>Křivka</translation>
     </message>
     <message>
         <location filename="../plotequation/plotdialog.cpp" line="61"/>
         <source>SplinePoints</source>
         <comment>Plot Equation to generate 2nd spline by LC_SplinePoints</comment>
-        <translation type="unfinished"></translation>
+        <translation>Body splajny</translation>
     </message>
 </context>
 <context>
