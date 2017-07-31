@@ -8101,7 +8101,7 @@ Continue?</source>
     </message>
     <message>
         <source>License</source>
-        <translation type="unfinished">ライセンス</translation>
+        <translation>ライセンス</translation>
     </message>
 </context>
 <context>
@@ -10424,7 +10424,7 @@ Continue?</source>
     <name>TextFileViewer</name>
     <message>
         <source>Frame</source>
-        <translation type="unfinished">フレーム</translation>
+        <translation>フレーム</translation>
     </message>
 </context>
 <context>

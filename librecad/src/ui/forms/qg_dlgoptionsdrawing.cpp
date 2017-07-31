@@ -108,7 +108,8 @@ void QG_DlgOptionsDrawing::init() {
              << tr("Decimal")
              << tr("Engineering")
              << tr("Architectural")
-             << tr("Fractional");
+             << tr("Fractional")
+             << tr("Architectural (metric)");
     cbLengthFormat->insertItems(0, unitList);
     cbDimLUnit->insertItems(0, unitList);
 
@@ -177,9 +178,9 @@ void QG_DlgOptionsDrawing::setGraphic(RS_Graphic* g) {
         rbPortrait->setChecked(true);
     }
 	if(format==RS2::Custom){
-		RS_Vector s=graphic->getPaperSize();
-		lePaperWidth->setText(QString("%1").setNum(s.x,'g',5));
-		lePaperHeight->setText(QString("%1").setNum(s.y,'g',5));
+        RS_Vector s=graphic->getPaperSize();
+        lePaperWidth->setText(QString("%1").setNum(s.x,'g',5));
+        lePaperHeight->setText(QString("%1").setNum(s.y,'g',5));
 		lePaperWidth->setEnabled(true);
 		lePaperHeight->setEnabled(true);
 	}else{
@@ -381,6 +382,16 @@ void QG_DlgOptionsDrawing::validate() {
             return;
         }
     }
+    if (f==RS2::ArchitecturalMetric) {
+        if (RS_Units::stringToUnit(cbUnit->currentText())!=RS2::Meter) {
+            QMessageBox::warning( this, tr("Options"),
+                                  tr("For the length format 'Architectural (metric)', the "
+                                     "unit must be set to Meter."),
+                                  QMessageBox::Ok,
+                                  Qt::NoButton);
+            return;
+        }
+    }
 
 	if (graphic) {
         // units:
@@ -397,13 +408,8 @@ void QG_DlgOptionsDrawing::validate() {
                     rbLandscape->isChecked());
         // custom paper size:
 		if (static_cast<RS2::PaperFormat>(cbPaperFormat->currentIndex()) == RS2::Custom) {
-            graphic->setPaperSize(
-                        RS_Units::convert(
-                            RS_Vector(RS_Math::eval(lePaperWidth->text()),
-                                      RS_Math::eval(lePaperHeight->text())),
-							static_cast<RS2::Unit>(cbUnit->currentIndex()),
-							RS2::Millimeter)
-						);
+            graphic->setPaperSize(RS_Vector(RS_Math::eval(lePaperWidth->text()),
+                                            RS_Math::eval(lePaperHeight->text())));
 			bool landscape;
 			graphic->getPaperFormat(&landscape);
 			rbLandscape->setChecked(landscape);
@@ -594,6 +600,11 @@ void QG_DlgOptionsDrawing::updateCBLengthPrecision(QComboBox* f, QComboBox* p) {
         p->addItem("0 1/128");
         break;
 
+        // architectural metric
+    case 5:
+        p->insertItems(0, listPrec1);
+        break;
+
     default:
         RS_DEBUG->print(RS_Debug::D_ERROR,
                         "QG_DlgOptionsDrawing::updateLengthPrecision: error");
@@ -608,7 +619,7 @@ void QG_DlgOptionsDrawing::updateCBLengthPrecision(QComboBox* f, QComboBox* p) {
  * Updates the angle precision combobox
  */
 void QG_DlgOptionsDrawing::updateAnglePrecision() {
-    updateCBAnglePrecision(cbLengthFormat, cbLengthPrecision);
+    updateCBAnglePrecision(cbAngleFormat, cbAnglePrecision);
 }
 
 /**
@@ -714,13 +725,8 @@ void  QG_DlgOptionsDrawing::updatePaperSize() {
 
 	RS_Vector s; //paper size: width, height
     if (format==RS2::Custom) {
-		s = RS_Units::convert(
-                    graphic->getPaperSize(),
-                    RS2::Millimeter,
-					static_cast<RS2::Unit>(cbUnit->currentIndex())
-					);
-        //RS_Vector plimmin = graphic->getVariableVector("$PLIMMIN", RS_Vector(0,0));
-		//RS_Vector plimmax = graphic->getVariableVector("$PLIMMAX", RS_Vector(100,100));
+        s.x = RS_Math::eval(lePaperWidth->text());
+        s.y = RS_Math::eval(lePaperHeight->text());
     }
     else {
         //display paper size according to current units

@@ -5,61 +5,61 @@
     <name>ColorWizard</name>
     <message>
         <source>Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Рамка</translation>
     </message>
     <message>
         <source>Add to favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>Додади во омилени</translation>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation>...</translation>
     </message>
 </context>
 <context>
     <name>ComboBoxOption</name>
     <message>
         <source>Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Рамка</translation>
     </message>
     <message>
         <source>GroupBox</source>
-        <translation type="unfinished"></translation>
+        <translation>ГрупнаКутија</translation>
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Одбери</translation>
     </message>
 </context>
 <context>
     <name>DlgSplinePoints</name>
     <message>
         <source>SplinePoints</source>
-        <translation type="unfinished"></translation>
+        <translation>СплајнТочка</translation>
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation>Геометрија</translation>
     </message>
     <message>
         <source>Closed</source>
-        <translation type="unfinished"></translation>
+        <translation>Затвори</translation>
     </message>
     <message>
         <source>Spline Points</source>
-        <translation type="unfinished"></translation>
+        <translation>Сплајн Точка</translation>
     </message>
     <message>
         <source>Control Points</source>
-        <translation type="unfinished"></translation>
+        <translation>Контролна точка</translation>
     </message>
     <message>
         <source>Points on Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Точка од сплајн</translation>
     </message>
 </context>
 <context>
@@ -67,350 +67,350 @@
     <message>
         <source>radius=%1 is too small for points selected
 distance between points=%2 is larger than diameter=%3</source>
-        <translation type="unfinished"></translation>
+        <translation>радиусот е премногу мал ...</translation>
     </message>
     <message>
         <source>Select from two possible circle centers</source>
-        <translation type="unfinished"></translation>
+        <translation>Селектрирај помеѓу две можности</translation>
     </message>
     <message>
         <source>Specify first point</source>
-        <translation type="unfinished"></translation>
+        <translation>Специфицирај ја првата точка</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Откажи</translation>
     </message>
     <message>
         <source>Specify second point</source>
-        <translation type="unfinished"></translation>
+        <translation>Специфицирај ја втората точка</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Врати</translation>
     </message>
     <message>
         <source>Select circle center</source>
-        <translation type="unfinished"></translation>
+        <translation>Селектирај центар на круг</translation>
     </message>
 </context>
 <context>
     <name>LC_ActionDrawSplinePoints</name>
     <message>
         <source>Specify first control point</source>
-        <translation type="unfinished"></translation>
+        <translation>Специфицирај прва контролна точка</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Откажи</translation>
     </message>
     <message>
         <source>Specify next control point or [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Специфицирај втора контролна точка</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Врати</translation>
     </message>
     <message>
         <source>Specify next control point</source>
-        <translation type="unfinished"></translation>
+        <translation>Специфицирај следна контролна точка</translation>
     </message>
     <message>
         <source>Cannot undo: Not enough entities defined yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не можеш да вратиш-Се уште нема дефинирано ентитет</translation>
     </message>
     <message>
         <source>Cannot undo: Nothing could be redone.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не можеш да вратиш-Нема што да вчита</translation>
     </message>
 </context>
 <context>
     <name>LC_ActionFactory</name>
     <message>
         <source>&amp;Window Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>зумирај прозорец</translation>
     </message>
     <message>
         <source>Zoom &amp;Panning</source>
-        <translation type="unfinished"></translation>
+        <translation>зумирај-влечи</translation>
     </message>
     <message>
         <source>Select Entity</source>
-        <translation type="unfinished"></translation>
+        <translation>Селектирај ентитет</translation>
     </message>
     <message>
         <source>Select Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Селектирај прозорец</translation>
     </message>
     <message>
         <source>Deselect Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Деселктирај прозорец</translation>
     </message>
     <message>
         <source>(De-)Select &amp;Contour</source>
-        <translation type="unfinished"></translation>
+        <translation>(Де)Селектирај контури</translation>
     </message>
     <message>
         <source>Select Intersected Entities</source>
-        <translation type="unfinished"></translation>
+        <translation>Селектирај ентитет кој се сечи</translation>
     </message>
     <message>
         <source>Deselect Intersected Entities</source>
-        <translation type="unfinished"></translation>
+        <translation>Деселектирај ентитет кој се сечи</translation>
     </message>
     <message>
         <source>(De-)Select Layer</source>
-        <translation type="unfinished"></translation>
+        <translation>(Де)селектирај слој</translation>
     </message>
     <message>
         <source>&amp;Points</source>
-        <translation type="unfinished"></translation>
+        <translation>Точка</translation>
     </message>
     <message>
         <source>&amp;2 Points</source>
-        <translation type="unfinished"></translation>
+        <translation>2 Точки</translation>
     </message>
     <message>
         <source>&amp;Angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Агол</translation>
     </message>
     <message>
         <source>&amp;Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Хоризонтала</translation>
     </message>
     <message>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Вертикала</translation>
     </message>
     <message>
         <source>&amp;Freehand Line</source>
-        <translation type="unfinished"></translation>
+        <translation>Линија со слободна рака</translation>
     </message>
     <message>
         <source>&amp;Parallel</source>
-        <translation type="unfinished"></translation>
+        <translation>Паралела</translation>
     </message>
     <message>
         <source>Parallel through point</source>
-        <translation type="unfinished"></translation>
+        <translation>Паралела низ точка</translation>
     </message>
     <message>
         <source>Rectangle</source>
-        <translation type="unfinished"></translation>
+        <translation>Правоаголник</translation>
     </message>
     <message>
         <source>Bisector</source>
-        <translation type="unfinished"></translation>
+        <translation>Бисектриса</translation>
     </message>
     <message>
         <source>Tangent (P,C)</source>
-        <translation type="unfinished"></translation>
+        <translation>Тангента(PC)</translation>
     </message>
     <message>
         <source>Tangent (C,C)</source>
-        <translation type="unfinished"></translation>
+        <translation>Тангента(C,C)</translation>
     </message>
     <message>
         <source>Tangent &amp;Orthogonal</source>
-        <translation type="unfinished"></translation>
+        <translation>Тангента и ортогонално</translation>
     </message>
     <message>
         <source>Orthogonal</source>
-        <translation type="unfinished"></translation>
+        <translation>Ортогонала</translation>
     </message>
     <message>
         <source>Relative angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Релативен агол</translation>
     </message>
     <message>
         <source>Pol&amp;ygon (Cen,Cor)</source>
-        <translation type="unfinished"></translation>
+        <translation>Полигон(Cen,Cen)</translation>
     </message>
     <message>
         <source>Polygo&amp;n (Cor,Cor)</source>
-        <translation type="unfinished"></translation>
+        <translation>Полигон(Cor,Cor)</translation>
     </message>
     <message>
         <source>Center, &amp;Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Центар и точка</translation>
     </message>
     <message>
         <source>Center, &amp;Radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Центар и радиус</translation>
     </message>
     <message>
         <source>2 Points</source>
-        <translation type="unfinished"></translation>
+        <translation>2 точки</translation>
     </message>
     <message>
         <source>2 Points, Radius</source>
-        <translation type="unfinished"></translation>
+        <translation>2 точки, радиус</translation>
     </message>
     <message>
         <source>3 Points</source>
-        <translation type="unfinished"></translation>
+        <translation>3 точки</translation>
     </message>
     <message>
         <source>&amp;Concentric</source>
-        <translation type="unfinished"></translation>
+        <translation>Концентрично</translation>
     </message>
     <message>
         <source>Circle &amp;Inscribed</source>
-        <translation type="unfinished"></translation>
+        <translation>Впишан круг</translation>
     </message>
     <message>
         <source>Tangential 2 Circles, Radius</source>
         <comment>circle tangential with two circles, and given radius</comment>
-        <translation type="unfinished"></translation>
+        <translation>Тангента и 2 круга, радиус</translation>
     </message>
     <message>
         <source>Tangential 2 Circles, 1 Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Тангента и 2 круга, 1 точка</translation>
     </message>
     <message>
         <source>Tangential &amp;3 Circles</source>
-        <translation type="unfinished"></translation>
+        <translation>Тангента и 3 круга, радиус</translation>
     </message>
     <message>
         <source>Tangential, 2 P&amp;oints</source>
-        <translation type="unfinished"></translation>
+        <translation>Тангента и 2 точки</translation>
     </message>
     <message>
         <source>&amp;Center, Point, Angles</source>
-        <translation type="unfinished"></translation>
+        <translation>центар,точка.агол</translation>
     </message>
     <message>
         <source>&amp;3 Points</source>
-        <translation type="unfinished"></translation>
+        <translation>3 точки</translation>
     </message>
     <message>
         <source>Arc &amp;Tangential</source>
-        <translation type="unfinished"></translation>
+        <translation>Агол и тангенцијално</translation>
     </message>
     <message>
         <source>&amp;Ellipse (Axis)</source>
-        <translation type="unfinished"></translation>
+        <translation>Елипса(Оска)</translation>
     </message>
     <message>
         <source>Ellipse &amp;Arc (Axis)</source>
-        <translation type="unfinished"></translation>
+        <translation>Елипса и агол(Оска)</translation>
     </message>
     <message>
         <source>Ellipse &amp;Foci Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Елипса и фокусна точка</translation>
     </message>
     <message>
         <source>Ellipse &amp;4 Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Елипса и 4 точки</translation>
     </message>
     <message>
         <source>Ellipse Center and &amp;3 Points</source>
-        <translation type="unfinished"></translation>
+        <translation>Елипса, центар и 3 точки</translation>
     </message>
     <message>
         <source>Ellipse &amp;Inscribed</source>
-        <translation type="unfinished"></translation>
+        <translation>впишана елипса</translation>
     </message>
     <message>
         <source>&amp;Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Сплајн</translation>
     </message>
     <message>
         <source>&amp;Spline through points</source>
-        <translation type="unfinished"></translation>
+        <translation>Сплајн низ точка</translation>
     </message>
     <message>
         <source>&amp;Polyline</source>
-        <translation type="unfinished"></translation>
+        <translation>Полилинија</translation>
     </message>
     <message>
         <source>&amp;Add node</source>
-        <translation type="unfinished"></translation>
+        <translation>Додади јазол</translation>
     </message>
     <message>
         <source>A&amp;ppend node</source>
-        <translation type="unfinished"></translation>
+        <translation>Приложи јазол</translation>
     </message>
     <message>
         <source>&amp;Delete node</source>
-        <translation type="unfinished"></translation>
+        <translation>Избриши јазол</translation>
     </message>
     <message>
         <source>Delete &amp;between two nodes</source>
-        <translation type="unfinished"></translation>
+        <translation>Избриши меѓу 2 јазли</translation>
     </message>
     <message>
         <source>&amp;Trim segments</source>
-        <translation type="unfinished"></translation>
+        <translation>Пресечи сегменти</translation>
     </message>
     <message>
         <source>Create &amp;Equidistant Polylines</source>
-        <translation type="unfinished"></translation>
+        <translation>Креирај полинија на еквидистанца</translation>
     </message>
     <message>
         <source>Create Polyline from Existing &amp;Segments</source>
-        <translation type="unfinished"></translation>
+        <translation>Креирај полинија од егсистира и сегменти</translation>
     </message>
     <message>
         <source>&amp;MText</source>
-        <translation type="unfinished"></translation>
+        <translation>Мулитилиниски текст</translation>
     </message>
     <message>
         <source>&amp;Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст</translation>
     </message>
     <message>
         <source>&amp;Hatch</source>
-        <translation type="unfinished"></translation>
+        <translation>Шрафура</translation>
     </message>
     <message>
         <source>Insert &amp;Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Вметни слика</translation>
     </message>
     <message>
         <source>&amp;Aligned</source>
-        <translation type="unfinished"></translation>
+        <translation>Под агол</translation>
     </message>
     <message>
         <source>&amp;Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Линеарно</translation>
     </message>
     <message>
         <source>&amp;Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Ветикално</translation>
     </message>
     <message>
         <source>&amp;Radial</source>
-        <translation type="unfinished"></translation>
+        <translation>Радиално</translation>
     </message>
     <message>
         <source>&amp;Diametric</source>
-        <translation type="unfinished"></translation>
+        <translation>Диаметрично</translation>
     </message>
     <message>
         <source>&amp;Angular</source>
-        <translation type="unfinished"></translation>
+        <translation>Аголно</translation>
     </message>
     <message>
         <source>&amp;Leader</source>
-        <translation type="unfinished"></translation>
+        <translation>лидер</translation>
     </message>
     <message>
         <source>&amp;Attributes</source>
-        <translation type="unfinished"></translation>
+        <translation>атрибути</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Избриши</translation>
     </message>
     <message>
         <source>Delete Freehand</source>
-        <translation type="unfinished"></translation>
+        <translation>Избриши слободна рака</translation>
     </message>
     <message>
         <source>&amp;Move / Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Придвижи / копирај</translation>
     </message>
     <message>
         <source>Re&amp;vert direction</source>
@@ -926,14 +926,14 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
     <name>QC_ActionGetPoint</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -944,7 +944,7 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -1107,7 +1107,7 @@ Please check the permissions.</source>
     </message>
     <message>
         <source>&amp;Polyline</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Полилинија</translation>
     </message>
     <message>
         <source>Auto-saving drawing...</source>
@@ -1667,7 +1667,7 @@ in a separate window</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">...</translation>
     </message>
 </context>
 <context>
@@ -1728,11 +1728,11 @@ in a separate window</source>
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>Radius:</source>
@@ -1767,7 +1767,7 @@ in a separate window</source>
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
 </context>
 <context>
@@ -1778,11 +1778,11 @@ in a separate window</source>
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>Radius:</source>
@@ -1805,11 +1805,11 @@ in a separate window</source>
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>Angle:</source>
@@ -1820,7 +1820,7 @@ in a separate window</source>
     <name>QG_DlgDimension</name>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Dimension</source>
@@ -1835,11 +1835,11 @@ in a separate window</source>
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>Center (y):</source>
@@ -1913,11 +1913,11 @@ in a separate window</source>
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>Width:</source>
@@ -1991,11 +1991,11 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>Insertion point (x):</source>
@@ -2042,11 +2042,11 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>End point (x):</source>
@@ -2073,7 +2073,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Font</source>
@@ -2700,7 +2700,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">...</translation>
     </message>
 </context>
 <context>
@@ -2731,7 +2731,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">...</translation>
     </message>
     <message>
         <source>Move/Copy Options</source>
@@ -2778,7 +2778,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">...</translation>
     </message>
     <message>
         <source>Ctrl+S</source>
@@ -3446,11 +3446,11 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>Position (y):</source>
@@ -3469,15 +3469,15 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>Closed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Затвори</translation>
     </message>
 </context>
 <context>
@@ -3516,7 +3516,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">...</translation>
     </message>
 </context>
 <context>
@@ -3559,7 +3559,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">...</translation>
     </message>
 </context>
 <context>
@@ -3594,7 +3594,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">...</translation>
     </message>
     <message>
         <source>Scale by the same factor at both x- and y- directions</source>
@@ -3621,11 +3621,11 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Geometry</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Геометрија</translation>
     </message>
     <message>
         <source>Degree:</source>
@@ -3633,7 +3633,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>Closed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Затвори</translation>
     </message>
 </context>
 <context>
@@ -4216,7 +4216,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>Layer:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Слој:</translation>
     </message>
     <message>
         <source>Font settings</source>
@@ -4244,7 +4244,7 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">...</translation>
     </message>
     <message>
         <source>Baseline Right</source>
@@ -6689,7 +6689,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -6704,7 +6704,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Enter angle:</source>
@@ -6750,7 +6750,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -6761,7 +6761,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second extension line origin</source>
@@ -6769,7 +6769,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify dimension line location</source>
@@ -6788,7 +6788,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Select second line</source>
@@ -6819,7 +6819,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify dimension line location</source>
@@ -6838,7 +6838,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify next point</source>
@@ -6861,7 +6861,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second extension line origin</source>
@@ -6869,7 +6869,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify dimension line location</source>
@@ -6900,7 +6900,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify dimension line position or enter angle:</source>
@@ -6927,7 +6927,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify radius</source>
@@ -6935,7 +6935,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify start angle:</source>
@@ -6962,15 +6962,15 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја втората точка</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify endpoint</source>
@@ -6989,7 +6989,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify end angle</source>
@@ -6997,7 +6997,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify end point</source>
@@ -7016,7 +7016,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify radius</source>
@@ -7024,7 +7024,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -7035,19 +7035,19 @@ Continue?</source>
     </message>
     <message>
         <source>Specify first point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја првата точка</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја втората точка</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -7058,19 +7058,19 @@ Continue?</source>
     </message>
     <message>
         <source>Specify first point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја првата точка</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја втората точка</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify third point</source>
@@ -7089,7 +7089,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify circle radius</source>
@@ -7097,7 +7097,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>radius=%1 is invalid</source>
@@ -7112,7 +7112,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify the second line</source>
@@ -7120,7 +7120,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify the third line</source>
@@ -7131,7 +7131,7 @@ Continue?</source>
     <name>RS_ActionDrawCircleTan1_2P</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify the first point on the tangent circle</source>
@@ -7139,7 +7139,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify the second point on the tangent circle</source>
@@ -7162,7 +7162,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify the second line/arc/circle</source>
@@ -7170,7 +7170,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Select the center of the tangent circle</source>
@@ -7185,7 +7185,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify the another arc/circle</source>
@@ -7193,7 +7193,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify a point on the tangent circle</source>
@@ -7208,11 +7208,11 @@ Continue?</source>
     <name>RS_ActionDrawCircleTan3</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Select the center of the tangent circle</source>
@@ -7239,7 +7239,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify the second point on ellipse</source>
@@ -7247,7 +7247,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify the third point on ellipse</source>
@@ -7274,7 +7274,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify endpoint of major axis</source>
@@ -7282,7 +7282,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify endpoint or length of minor axis:</source>
@@ -7305,7 +7305,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify the first point on ellipse</source>
@@ -7317,7 +7317,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify the third point on ellipse</source>
@@ -7336,7 +7336,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second focus of ellipse</source>
@@ -7344,7 +7344,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify a point on ellipse or total distance to foci</source>
@@ -7367,7 +7367,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify the second line</source>
@@ -7375,7 +7375,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify the third line</source>
@@ -7437,7 +7437,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Enter angle:</source>
@@ -7460,11 +7460,11 @@ Continue?</source>
     <name>RS_ActionDrawLine</name>
     <message>
         <source>Specify first point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја првата точка</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify next point or [%1]</source>
@@ -7472,7 +7472,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify next point</source>
@@ -7480,7 +7480,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cannot undo: Not enough entities defined yet.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Не можеш да вратиш-Се уште нема дефинирано ентитет</translation>
     </message>
     <message>
         <source>Cannot close sequence of lines: Not enough entities defined yet, or already closed.</source>
@@ -7503,7 +7503,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Enter angle:</source>
@@ -7511,7 +7511,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Enter length:</source>
@@ -7530,7 +7530,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Select second line</source>
@@ -7538,7 +7538,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Enter bisector length:</source>
@@ -7562,26 +7562,26 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawLineHorVert</name>
     <message>
         <source>Specify first point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја првата точка</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја втората точка</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -7592,7 +7592,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Select circle, arc or ellipse</source>
@@ -7600,7 +7600,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -7611,7 +7611,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Enter number:</source>
@@ -7634,7 +7634,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify through point</source>
@@ -7642,7 +7642,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Number:</source>
@@ -7695,7 +7695,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second corner</source>
@@ -7703,7 +7703,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Number:</source>
@@ -7726,7 +7726,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second corner</source>
@@ -7734,7 +7734,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -7749,7 +7749,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify position</source>
@@ -7757,7 +7757,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -7768,7 +7768,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Select circle, arc or ellipse</source>
@@ -7776,18 +7776,18 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawLineTangent2</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Select first circle or ellipse</source>
@@ -7806,7 +7806,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Enter text:</source>
@@ -7814,7 +7814,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -7825,18 +7825,18 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawPolyline</name>
     <message>
         <source>Specify first point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја првата точка</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify next point or [%1]</source>
@@ -7844,7 +7844,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify next point</source>
@@ -7856,34 +7856,34 @@ Continue?</source>
     </message>
     <message>
         <source>Cannot undo: Not enough entities defined yet.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Не можеш да вратиш-Се уште нема дефинирано ентитет</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionDrawSpline</name>
     <message>
         <source>Specify first control point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај прва контролна точка</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify next control point or [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај втора контролна точка</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify next control point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај следна контролна точка</translation>
     </message>
     <message>
         <source>Cannot undo: Not enough entities defined yet.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Не можеш да вратиш-Се уште нема дефинирано ентитет</translation>
     </message>
 </context>
 <context>
@@ -7894,7 +7894,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Enter text:</source>
@@ -7902,11 +7902,11 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify second point</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Специфицирај ја втората точка</translation>
     </message>
 </context>
 <context>
@@ -7917,7 +7917,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -7928,7 +7928,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -7954,7 +7954,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second line</source>
@@ -7962,7 +7962,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Angle: %1</source>
@@ -7985,7 +7985,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify next point of polygon</source>
@@ -8008,7 +8008,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second point of distance</source>
@@ -8016,7 +8016,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Distance: %1 Cartesian: (%2 , %3), Polar: (%4&lt;%5)</source>
@@ -8035,7 +8035,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify point</source>
@@ -8043,7 +8043,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -8062,7 +8062,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -8092,7 +8092,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Enter angle:</source>
@@ -8130,7 +8130,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Select second entity</source>
@@ -8138,7 +8138,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Enter length 1:</source>
@@ -8169,7 +8169,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify cutting point</source>
@@ -8177,7 +8177,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Entity must be a line, arc, circle, ellipse or interpolation spline.</source>
@@ -8192,7 +8192,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second break point on the same polyline</source>
@@ -8200,7 +8200,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Entities not in the same polyline.</source>
@@ -8243,7 +8243,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -8254,7 +8254,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second point of mirror line</source>
@@ -8262,7 +8262,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -8273,7 +8273,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify target point</source>
@@ -8281,7 +8281,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Invalid number of copies, use %1 </source>
@@ -8300,7 +8300,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify target point</source>
@@ -8308,7 +8308,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Enter rotation angle:</source>
@@ -8323,7 +8323,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -8334,7 +8334,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify rotation center</source>
@@ -8353,7 +8353,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify relative reference point</source>
@@ -8361,7 +8361,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -8376,7 +8376,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify second entity</source>
@@ -8388,7 +8388,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -8399,7 +8399,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -8410,7 +8410,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second corner</source>
@@ -8418,7 +8418,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify reference point</source>
@@ -8437,7 +8437,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Select limiting entity</source>
@@ -8445,7 +8445,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Select second trim entity</source>
@@ -8480,7 +8480,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -8495,7 +8495,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -8522,7 +8522,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify adding node&apos;s point</source>
@@ -8530,7 +8530,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
@@ -8553,7 +8553,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify next point or [%1]</source>
@@ -8561,7 +8561,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify next point</source>
@@ -8573,7 +8573,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cannot undo: Not enough entities defined yet.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Не можеш да вратиш-Се уште нема дефинирано ентитет</translation>
     </message>
 </context>
 <context>
@@ -8592,7 +8592,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify deleting node&apos;s point</source>
@@ -8600,7 +8600,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Deleting point is invalid.</source>
@@ -8631,7 +8631,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify first node</source>
@@ -8639,7 +8639,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify second node</source>
@@ -8666,7 +8666,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
 </context>
 <context>
@@ -8681,7 +8681,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Entity can not be a closed polyline.</source>
@@ -8716,7 +8716,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify first segment</source>
@@ -8724,7 +8724,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Specify second segment</source>
@@ -8782,7 +8782,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Select to delete</source>
@@ -8868,7 +8868,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Choose second point of intersection line</source>
@@ -8876,14 +8876,14 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
     <name>RS_ActionSelectWindow</name>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Choose second edge</source>
@@ -8891,7 +8891,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Click and drag for the selection window</source>
@@ -8906,7 +8906,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Set &amp;Relative Zero</source>
@@ -8925,7 +8925,7 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
     <message>
         <source>Select second entity</source>
@@ -8951,7 +8951,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Zoom panning</source>
@@ -8966,7 +8966,7 @@ Continue?</source>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Откажи</translation>
     </message>
     <message>
         <source>Specify second edge</source>
@@ -8974,14 +8974,14 @@ Continue?</source>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Врати</translation>
     </message>
 </context>
 <context>
     <name>TextFileViewer</name>
     <message>
         <source>Frame</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Рамка</translation>
     </message>
 </context>
 <context>
@@ -9124,7 +9124,7 @@ Continue?</source>
     </message>
     <message>
         <source>...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">...</translation>
     </message>
 </context>
 <context>
@@ -9584,7 +9584,7 @@ Continue?</source>
     </message>
     <message>
         <source>Closed</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Затвори</translation>
     </message>
     <message>
         <source>Undo</source>
@@ -9633,7 +9633,7 @@ Continue?</source>
     <name>WidgetCreator</name>
     <message>
         <source>Frame</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Рамка</translation>
     </message>
     <message>
         <source>&gt;</source>
