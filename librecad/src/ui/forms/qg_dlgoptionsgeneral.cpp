@@ -31,6 +31,7 @@
 #include "rs_settings.h"
 #include "rs_units.h"
 #include "qg_filedialog.h"
+#include "mec_filedialog.h"
 #include "rs_debug.h"
 
 /*
@@ -218,7 +219,9 @@ void QG_DlgOptionsGeneral::setRestartNeeded() {
 
 void QG_DlgOptionsGeneral::setTemplateFile() {
     RS2::FormatType type = RS2::FormatDXFRW;
-    QG_FileDialog dlg(this);
+//    QG_FileDialog dlg(this);
+//    QString fileName = dlg.getOpenFile(&type);
+    MEC_FileDialog dlg(this);
     QString fileName = dlg.getOpenFile(&type);
     leTemplate->setText(fileName);
 }

@@ -218,7 +218,8 @@ HEADERS += \
     lib/printing/lc_printing.h \
     actions/lc_actiondrawlinepolygon3.h \
     plugins/intern/lc_actiongetdirection.h \
-    plugins/intern/lc_actiongetlineend.h
+    plugins/intern/lc_actiongetlineend.h \
+    ui/forms/mec_filedialog.h
 
 SOURCES += \
     lib/actions/rs_actioninterface.cpp \
@@ -309,7 +310,8 @@ SOURCES += \
     lib/printing/lc_printing.cpp \
     actions/lc_actiondrawlinepolygon3.cpp \
     plugins/intern/lc_actiongetdirection.cpp \
-    plugins/intern/lc_actiongetlineend.cpp
+    plugins/intern/lc_actiongetlineend.cpp \
+    ui/forms/mec_filedialog.cpp
 
 # ################################################################################
 # Command
@@ -869,6 +871,7 @@ FORMS = ui/forms/qg_commandwidget.ui \
     ui/forms/qg_activelayername.ui \
     ui/forms/lc_dlgsplinepoints.ui \
     ui/forms/lc_widgetoptionsdialog.ui \
+    ui/forms/mec_filedialog.ui \
     ui/lc_deviceoptions.ui \
     ui/generic/comboboxoption.ui \
     ui/generic/widgetcreator.ui \

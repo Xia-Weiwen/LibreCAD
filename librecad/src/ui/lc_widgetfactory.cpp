@@ -559,18 +559,18 @@ void LC_WidgetFactory::createMenus(QMenuBar* menu_bar)
     file_menu->setObjectName("File");
     file_menu->setTearOffEnabled(true);
     file_menu->addActions(file_actions);
-    sub_menu = file_menu->addMenu(QIcon(":/icons/import.svg"), QC_ApplicationWindow::tr("Import"));
-    sub_menu->setObjectName("Import");
-    sub_menu->addAction(a_map["DrawImage"]);
-    sub_menu->addAction(a_map["BlocksImport"]);
-    sub_menu = file_menu->addMenu(QIcon(":/icons/export.svg"), QC_ApplicationWindow::tr("Export"));
-    sub_menu->setObjectName("Export");
-    sub_menu->addAction(a_map["FileExportMakerCam"]);
-    sub_menu->addAction(a_map["FilePrintPDF"]);
-    sub_menu->addAction(a_map["FileExport"]);
-    file_menu->addSeparator();
-    file_menu->addAction(a_map["FilePrint"]);
-    file_menu->addAction(a_map["FilePrintPreview"]);
+//    sub_menu = file_menu->addMenu(QIcon(":/icons/import.svg"), QC_ApplicationWindow::tr("Import"));
+//    sub_menu->setObjectName("Import");
+//    sub_menu->addAction(a_map["DrawImage"]);
+//    sub_menu->addAction(a_map["BlocksImport"]);
+//    sub_menu = file_menu->addMenu(QIcon(":/icons/export.svg"), QC_ApplicationWindow::tr("Export"));
+//    sub_menu->setObjectName("Export");
+//    sub_menu->addAction(a_map["FileExportMakerCam"]);
+//    sub_menu->addAction(a_map["FilePrintPDF"]);
+//    sub_menu->addAction(a_map["FileExport"]);
+//    file_menu->addSeparator();
+//    file_menu->addAction(a_map["FilePrint"]);
+//    file_menu->addAction(a_map["FilePrintPreview"]);
     file_menu->addSeparator();
     file_menu->addAction(a_map["FileClose"]);
     file_menu->addAction(a_map["FileQuit"]);
@@ -578,14 +578,14 @@ void LC_WidgetFactory::createMenus(QMenuBar* menu_bar)
 
     // <[~ Options ~]>
 
-    QMenu* settings_menu = new QMenu(QC_ApplicationWindow::tr("&Options"), menu_bar);
-    settings_menu->setObjectName("options_menu");
-    settings_menu->setTearOffEnabled(true);
-    settings_menu->addAction(a_map["OptionsGeneral"]);
-    settings_menu->addAction(a_map["OptionsDrawing"]);
-    settings_menu->addAction(a_map["WidgetOptions"]);
-    settings_menu->addAction(a_map["DeviceOptions"]);
-    settings_menu->addAction(a_map["ReloadStyleSheet"]);
+//    QMenu* settings_menu = new QMenu(QC_ApplicationWindow::tr("&Options"), menu_bar);
+//    settings_menu->setObjectName("options_menu");
+//    settings_menu->setTearOffEnabled(true);
+//    settings_menu->addAction(a_map["OptionsGeneral"]);
+//    settings_menu->addAction(a_map["OptionsDrawing"]);
+//    settings_menu->addAction(a_map["WidgetOptions"]);
+//    settings_menu->addAction(a_map["DeviceOptions"]);
+//    settings_menu->addAction(a_map["ReloadStyleSheet"]);
 
     // <[~ Edit ~]>
 
@@ -832,7 +832,7 @@ void LC_WidgetFactory::createMenus(QMenuBar* menu_bar)
     // <[~ MenuBar Layout~]>
 
     menu_bar->addMenu(file_menu);
-    menu_bar->addMenu(settings_menu);
+//    menu_bar->addMenu(settings_menu);
     menu_bar->addMenu(edit_menu);
     menu_bar->addMenu(view_menu);
     menu_bar->addMenu(plugins_menu);

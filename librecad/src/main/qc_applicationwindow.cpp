@@ -80,6 +80,7 @@
 #include "qg_recentfiles.h"
 #include "qg_dlgimageoptions.h"
 #include "qg_filedialog.h"
+#include "mec_filedialog.h"
 
 #include "rs_dialogfactory.h"
 #include "qc_dialogfactory.h"
@@ -325,7 +326,7 @@ QC_ApplicationWindow::QC_ApplicationWindow()
 
     recentFiles = new QG_RecentFiles(this, 9);
     auto recent_menu = new QMenu(tr("Recent Files"), file_menu);
-    file_menu->addMenu(recent_menu);
+//    file_menu->addMenu(recent_menu); // Don't add this menu on firefly
     recentFiles->addFiles(recent_menu);
 
     RS_DEBUG->print("QC_ApplicationWindow::QC_ApplicationWindow: init settings");
@@ -1280,7 +1281,9 @@ void QC_ApplicationWindow::slotFileNewTemplate() {
     RS_DEBUG->print("QC_ApplicationWindow::slotFileNewTemplate()");
 
     RS2::FormatType type = RS2::FormatDXFRW;
-    QG_FileDialog dlg(this);
+//    QG_FileDialog dlg(this);
+//    QString fileName = dlg.getOpenFile(&type);
+    MEC_FileDialog dlg(this);
     QString fileName = dlg.getOpenFile(&type);
 
     if (fileName.isEmpty()) {
@@ -1339,7 +1342,9 @@ void QC_ApplicationWindow::slotFileOpen() {
     RS_DEBUG->print("QC_ApplicationWindow::slotFileOpen() 001");
     RS2::FormatType type = RS2::FormatUnknown;
     RS_DEBUG->print("QC_ApplicationWindow::slotFileOpen() 002");
-    QG_FileDialog dlg(this);
+//    QG_FileDialog dlg(this);
+//    QString fileName = dlg.getOpenFile(&type);
+    MEC_FileDialog dlg(this);
     QString fileName = dlg.getOpenFile(&type);
     RS_DEBUG->print("QC_ApplicationWindow::slotFileOpen() 003");
     slotFileOpen(fileName, type);
@@ -2363,8 +2368,10 @@ void QC_ApplicationWindow::slotOptionsGeneral() {
  * Menu File -> import -> importBlock
  */
 void QC_ApplicationWindow::slotImportBlock() {
-    QG_FileDialog dlg(this);
+//    QG_FileDialog dlg(this);
     RS2::FormatType type = RS2::FormatDXFRW;
+//    QString dxfPath = dlg.getOpenFile(&type);
+    MEC_FileDialog dlg(this);
     QString dxfPath = dlg.getOpenFile(&type);
     if (dxfPath.isEmpty()) {
         return;

@@ -63,5 +63,9 @@
         <file>width12.png</file>
         <file>lockedlayer.png</file>
         <file>unlockedlayer.png</file>
+        <file>usb_48px.png</file>
+        <file>file.png</file>
+        <file>folder.png</file>
+        <file>file_backward.png</file>
     </qresource>
 </RCC>

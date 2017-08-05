@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>ColorWizard</name>
     <message>
@@ -91,6 +91,29 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
     <message>
         <source>Select circle center</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>LC_ActionDrawLinePolygonCenTan</name>
+    <message>
+        <source>Specify center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Specify a tangent</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enter number:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not a valid number. Try 1..9999</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Not a valid expression</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -926,6 +949,171 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
 </context>
 <context>
+    <name>MEC_FileDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Look In</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ok</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>File Type</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Local Directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>USB Storage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drawing Exchange DXF 2007 %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drawing Exchange DXF 2004 %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drawing Exchange DXF 2000 %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drawing Exchange DXF R14 %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drawing Exchange DXF R12 %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drawing Exchange %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>LFF Font %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>dwg Drawing %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>QCad Font %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Jww Drawing %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>QCad 1.x file %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Block</source>
+        <comment>block file</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Drawing</source>
+        <comment>drawing file</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Untitled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Save %1 As</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>返回</source>
+        <translation>Back</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>文件已存在</source>
+        <translation>File exists</translation>
+    </message>
+    <message>
+        <source>同名文件已经存在，是否覆盖？</source>
+        <translation>File exists. Overwrite?</translation>
+    </message>
+    <message>
+        <source>取消</source>
+        <translation>Cancel</translation>
+    </message>
+    <message>
+        <source>覆盖</source>
+        <translation>Overwrite</translation>
+    </message>
+    <message>
+        <source>无效文件名</source>
+        <translation>Invalid file name</translation>
+    </message>
+    <message>
+        <source>文件名不能为空，也不能以特殊字符开头。</source>
+        <translation>File name must not be empty and not start with special characters.</translation>
+    </message>
+    <message>
+        <source>好的</source>
+        <translation>Ok</translation>
+    </message>
+</context>
+<context>
     <name>PolylineEquidistantOptions</name>
     <message>
         <source>Line Relative Angle Options</source>
@@ -1013,10 +1201,6 @@ distance between points=%2 is larger than diameter=%3</source>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Help</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1151,10 +1335,6 @@ Auto-save disabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Import</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Toolbars</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1244,10 +1424,6 @@ Auto-save disabled.</source>
     </message>
     <message>
         <source>Export as PDF</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Export</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1345,10 +1521,6 @@ Please check its existence and permissions.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Pl&amp;ugins</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1410,10 +1582,6 @@ Please check its existence and permissions.</source>
     </message>
     <message>
         <source>Help Links</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Online</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3167,6 +3335,14 @@ Please choose the unit you want to use for new drawings and your preferred langu
     </message>
     <message>
         <source>fixed extension line legth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Architectural (metric)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>For the length format &apos;Architectural (metric)&apos;, the unit must be set to Meter.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7725,29 +7901,6 @@ Continue?</source>
     </message>
     <message>
         <source>Specify a corner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enter number:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Not a valid number. Try 1..9999</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Not a valid expression</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>RS_ActionDrawLinePolygonCenTan</name>
-    <message>
-        <source>Specify center</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Specify a tangent</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

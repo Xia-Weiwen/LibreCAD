@@ -41,6 +41,7 @@
 #include "rs_settings.h"
 #include "qg_exitdialog.h"
 #include "qg_filedialog.h"
+#include "mec_filedialog.h"
 #include "rs_insert.h"
 #include "rs_mtext.h"
 #include "rs_pen.h"
@@ -467,7 +468,8 @@ bool QC_MDIWindow::slotFileSaveAs(bool &cancelled) {
     cancelled = false;
     RS2::FormatType t = RS2::FormatDXFRW;
 
-    QG_FileDialog dlg(this);
+//    QG_FileDialog dlg(this);
+    MEC_FileDialog dlg(this);
     QString fn = dlg.getSaveFile(&t);
 	if (document && !fn.isEmpty()) {
         QApplication::setOverrideCursor( QCursor(Qt::WaitCursor) );

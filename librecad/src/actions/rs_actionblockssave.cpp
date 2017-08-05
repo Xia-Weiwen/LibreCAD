@@ -23,6 +23,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #include <QApplication>
 #include "qg_blockwidget.h"
 #include "qg_filedialog.h"
+#include "mec_filedialog.h"
 #include "qc_applicationwindow.h"
 #include "rs_graphic.h"
 #include "rs_dialogfactory.h"
@@ -84,8 +85,10 @@ void RS_ActionBlocksSave::trigger() {
 
             RS2::FormatType t = RS2::FormatDXFRW;
 
-            QG_FileDialog dlg(appWindow->getMDIWindow(),0, QG_FileDialog::BlockFile);
-			QString const& fn = dlg.getSaveFile(&t);
+//            QG_FileDialog dlg(appWindow->getMDIWindow(),0, QG_FileDialog::BlockFile);
+//			QString const& fn = dlg.getSaveFile(&t);
+            MEC_FileDialog dlg(appWindow->getMDIWindow(),0, MEC_FileDialog::BlockFile);
+            QString const& fn = dlg.getSaveFile(&t);
             QApplication::setOverrideCursor( QCursor(Qt::WaitCursor) );
 //            g.setModified(true);
             g.saveAs(fn, t);

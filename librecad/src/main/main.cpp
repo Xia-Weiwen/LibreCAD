@@ -241,6 +241,7 @@ int main(int argc, char** argv)
     QC_ApplicationWindow appWin;
     RS_DEBUG->print("main: setting caption");
     appWin.setWindowTitle(app.applicationName());
+    appWin.setWindowFlags(Qt::FramelessWindowHint);
 
     RS_DEBUG->print("main: show main window");
 
@@ -273,7 +274,7 @@ int main(int argc, char** argv)
     if (maximize || first_load)
         appWin.showMaximized();
     else
-        appWin.show();
+        appWin.showMaximized();
 
     RS_DEBUG->print("main: set focus");
     appWin.setFocus();
