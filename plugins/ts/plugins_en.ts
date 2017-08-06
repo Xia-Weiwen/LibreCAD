@@ -291,7 +291,7 @@ Ring Array: Selected points are copied aroung a center</translation>
     <message>
         <location filename="../drilling/DrillMainDialog.ui" line="1142"/>
         <source> 个点</source>
-        <translation>point</translation>
+        <translation> point</translation>
     </message>
     <message>
         <location filename="../drilling/DrillMainDialog.ui" line="1145"/>
@@ -341,27 +341,6 @@ Ring Array: Selected points are copied aroung a center</translation>
         <translation>Hide Window</translation>
     </message>
     <message>
-        <source>æ</source>
-        <translation type="vanished">with </translation>
-    </message>
-    <message>
-        <source>æ </source>
-        <translation type="vanished">without </translation>
-    </message>
-    <message>
-        <source>éæ°æåºè¯´æ</source>
-        <translation type="vanished">Instruction on reordering</translation>
-    </message>
-    <message>
-        <source>å¦ææå¾ï¼åé¤äºç¬¬ä¸ç¹å¤ï¼è°æ´ä¼åå å·¥é¡ºåºã
-å¦æåæ¶æå¾ï¼åé¤äºæå®çç¬¬ä¸ç¹å¤ï¼å¶ä½åç¹ä»¥å¾çº¸ä¸­çç»å¾é¡ºåºæåºã</source>
-        <translation type="vanished">Reorder selected points to modify the machine path. Otherwise the order of the selected points are based on the drawing.</translation>
-    </message>
-    <message>
-        <source>å¥½ç</source>
-        <translation type="vanished">Ok</translation>
-    </message>
-    <message>
         <location filename="../drilling/DrillMainDialog.cpp" line="585"/>
         <source>有</source>
         <translation type="unfinished">with </translation>
@@ -391,42 +370,6 @@ If not checked, the order of selected points are based on the drawing.</translat
 </context>
 <context>
     <name>Drill_Plugin</name>
-    <message>
-        <source>éæ©ç¬¬ä¸ç¹</source>
-        <translation type="vanished">Specify the first point</translation>
-    </message>
-    <message>
-        <source>è¯·å¨ç¹å»ç¡®è®¤åï¼æå¨éæ©å å·¥ç¬¬ä¸ç¹ã</source>
-        <translation type="vanished">Please specify the first point manually.</translation>
-    </message>
-    <message>
-        <source>ç¡®è®¤</source>
-        <translation type="vanished">Ok</translation>
-    </message>
-    <message>
-        <source>éæ©å å·¥ç¬¬ä¸ç¹</source>
-        <translation type="obsolete">Specify the first point</translation>
-    </message>
-    <message>
-        <source>æ­£å¨å¤ç</source>
-        <translation type="vanished">Processing</translation>
-    </message>
-    <message>
-        <source>æ­£å¨æç´¢ï¼è¯·ç¨åâ¦â¦</source>
-        <translation type="vanished">Searching points, please wait...</translation>
-    </message>
-    <message>
-        <source>æ­£å¨çæéµåï¼è¯·ç¨åâ¦â¦</source>
-        <translation type="vanished">Generating array, please wait...</translation>
-    </message>
-    <message>
-        <source>æ­£å¨è½¬æ¢3Bæä»¶ï¼è¯·ç¨åâ¦â¦</source>
-        <translation type="vanished">Converting 3B file, please wait...</translation>
-    </message>
-    <message>
-        <source>æ­£å¨æ¥è¯¢å·²éç¹ï¼è¯·ç¨åâ¦â¦</source>
-        <translation type="vanished">Searching for selected points, please wait...</translation>
-    </message>
     <message>
         <location filename="../drilling/drilling.cpp" line="713"/>
         <source>选择第一点</source>
@@ -847,227 +790,132 @@ If not checked, the order of selected points are based on the drawing.</translat
     </message>
 </context>
 <context>
-    <name>MEC_FileDialog</name>
+    <name>MecFileDialog</name>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="14"/>
+        <location filename="../drilling/mecfiledialog.ui" line="14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="80"/>
-        <location filename="../drilling/mec_filedialog.ui" line="261"/>
+        <location filename="../drilling/mecfiledialog.ui" line="80"/>
+        <location filename="../drilling/mecfiledialog.ui" line="261"/>
         <source>File Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="93"/>
+        <location filename="../drilling/mecfiledialog.ui" line="93"/>
         <source>File Size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="123"/>
+        <location filename="../drilling/mecfiledialog.ui" line="123"/>
         <source>Look In</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="150"/>
+        <location filename="../drilling/mecfiledialog.ui" line="150"/>
         <source>:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="177"/>
+        <location filename="../drilling/mecfiledialog.ui" line="177"/>
         <source>Refresh</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="198"/>
+        <location filename="../drilling/mecfiledialog.ui" line="198"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="219"/>
+        <location filename="../drilling/mecfiledialog.ui" line="219"/>
         <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="306"/>
+        <location filename="../drilling/mecfiledialog.ui" line="306"/>
         <source>File Type</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="333"/>
+        <location filename="../drilling/mecfiledialog.ui" line="333"/>
         <source>Open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="351"/>
+        <location filename="../drilling/mecfiledialog.ui" line="351"/>
         <source>Local Directory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="372"/>
+        <location filename="../drilling/mecfiledialog.ui" line="372"/>
         <source>USB Storage</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="29"/>
-        <source>Drawing Exchange DXF 2007 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="30"/>
-        <source>Drawing Exchange DXF 2004 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="31"/>
-        <source>Drawing Exchange DXF 2000 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="32"/>
-        <source>Drawing Exchange DXF R14 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="33"/>
-        <source>Drawing Exchange DXF R12 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="34"/>
-        <source>Drawing Exchange %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="36"/>
-        <source>LFF Font %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="38"/>
-        <source>dwg Drawing %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="40"/>
-        <source>QCad Font %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="41"/>
-        <source>Jww Drawing %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="42"/>
-        <source>QCad 1.x file %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="45"/>
-        <source>Block</source>
-        <comment>block file</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="48"/>
-        <source>Drawing</source>
-        <comment>drawing file</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="159"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="136"/>
         <source>Untitled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="276"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="253"/>
         <source>返回</source>
         <translation type="unfinished">Back</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="400"/>
-        <source>文件已存在</source>
-        <translation>File Exists</translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="401"/>
-        <source>同名文件已经存在，是否覆盖？</source>
-        <translation>File exists. Overwrite?</translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="404"/>
-        <source>取消</source>
-        <translation>Cancel</translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="405"/>
-        <source>覆盖</source>
-        <translation>Overwrite</translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="412"/>
-        <source>无效文件名</source>
-        <translation>Invalid File Name</translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="413"/>
-        <source>文件名不能为空，也不能以特殊字符开头。</source>
-        <translation>File name can neither be empty nor start with special characters.</translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="417"/>
-        <source>好的</source>
-        <translation>Ok</translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="314"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="291"/>
         <source>%1 B</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="318"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="295"/>
         <source>%1 KB</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="322"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="299"/>
         <source>%1 MB</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="326"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="303"/>
         <source>%1 GB</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>æä»¶å·²å­å¨</source>
-        <translation type="vanished">File exists</translation>
+        <location filename="../drilling/mecfiledialog.cpp" line="377"/>
+        <source>文件已存在</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>ååæä»¶å·²ç»å­å¨ï¼æ¯å¦è¦çï¼</source>
-        <translation type="vanished">File exists. Overwrite?</translation>
+        <location filename="../drilling/mecfiledialog.cpp" line="378"/>
+        <source>同名文件已经存在，是否覆盖？</source>
+        <translation type="unfinished">File exists. Overwrite?</translation>
     </message>
     <message>
-        <source>åæ¶</source>
-        <translation type="vanished">Cancel</translation>
+        <location filename="../drilling/mecfiledialog.cpp" line="381"/>
+        <source>取消</source>
+        <translation type="unfinished">Cancel</translation>
     </message>
     <message>
-        <source>è¦ç</source>
-        <translation type="vanished">Overwrite</translation>
+        <location filename="../drilling/mecfiledialog.cpp" line="382"/>
+        <source>覆盖</source>
+        <translation type="unfinished">Overwrite</translation>
     </message>
     <message>
-        <source>æ ææä»¶å</source>
-        <translation type="vanished">Invalid File Name</translation>
+        <location filename="../drilling/mecfiledialog.cpp" line="389"/>
+        <source>无效文件名</source>
+        <translation type="unfinished">Invalid File Name</translation>
     </message>
     <message>
-        <source>æä»¶åä¸è½ä¸ºç©ºï¼ä¹ä¸è½ä»¥ç¹æ®å­ç¬¦å¼å¤´ã</source>
-        <translation type="vanished">The file name can neither be empty nor start with special characters. </translation>
+        <location filename="../drilling/mecfiledialog.cpp" line="390"/>
+        <source>文件名不能为空，也不能以特殊字符开头。</source>
+        <translation type="unfinished">File name can neither be empty nor start with special characters.</translation>
     </message>
     <message>
-        <source>å¥½ç</source>
-        <translation type="vanished">Ok</translation>
+        <location filename="../drilling/mecfiledialog.cpp" line="394"/>
+        <source>好的</source>
+        <translation type="unfinished">Ok</translation>
     </message>
 </context>
 <context>
@@ -1085,364 +933,6 @@ If not checked, the order of selected points are based on the drawing.</translat
 </context>
 <context>
     <name>QObject</name>
-    <message>
-        <source>çµç«è±ç©¿å­æº</source>
-        <translation type="vanished">EDM Drilling</translation>
-    </message>
-    <message>
-        <source>æ²¡æéç¹</source>
-        <translation type="vanished">No Points Selected</translation>
-    </message>
-    <message>
-        <source>æ¨è¿æ²¡æéç¹ã</source>
-        <translation type="vanished">No points selected yet.</translation>
-    </message>
-    <message>
-        <source>å¥½ç</source>
-        <translation type="vanished">Ok</translation>
-    </message>
-    <message>
-        <source>éæ©Xæ¹åé´è·</source>
-        <translation type="vanished">Specify X Spacing</translation>
-    </message>
-    <message>
-        <source>è¯·ä¾æ¬¡éæ©ä¸¤ç¹ã
-ä¸¤ç¹ä¹é´çæ°´å¹³è·ç¦»ï¼ä½ä¸ºXæ¹åé´è·ã</source>
-        <translation type="vanished">Specify two points.
-The horizontal distance between them is taken as the X spacing.</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©ç¬¬ä¸ä¸ªç¹</source>
-        <translation type="vanished">Specify the first point</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©ç¬¬äºä¸ªç¹</source>
-        <translation type="vanished">Specify the second point</translation>
-    </message>
-    <message>
-        <source>éæ©Yæ¹åé´è·</source>
-        <translation type="vanished">Specify Y Spacing</translation>
-    </message>
-    <message>
-        <source>è¯·ä¾æ¬¡éæ©ä¸¤ç¹ã
-ä¸¤ç¹ä¹é´çåç´è·ç¦»ï¼ä½ä¸ºYæ¹åé´è·ã</source>
-        <translation type="vanished">Specify two points.
-The vertical distance between them is taken as the Y spacing.</translation>
-    </message>
-    <message>
-        <source>éæ©ç¯å½¢éµåä¸­å¿</source>
-        <translation type="vanished">Specify Ring Array Center</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©ä¸ç¹ï¼ä½ä¸ºç¯å½¢éµåä¸­å¿ã</source>
-        <translation type="vanished">Specify a point to be the center of the ring array.</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©ä¸­å¿ç¹</source>
-        <translation type="vanished">Specify the center</translation>
-    </message>
-    <message>
-        <source>éæ©å¾åé´è·</source>
-        <translation type="vanished">Specify the radial spacing</translation>
-    </message>
-    <message>
-        <source>è¯·ä¾æ¬¡éæ©ä¸¤ç¹ã
-ä¸¤ç¹ä¹é´çè·ç¦»ï¼ä½ä¸ºå¾åé´è·ã</source>
-        <translation type="vanished">Specify two points.
-The distance between them is taken as the radial spacing.</translation>
-    </message>
-    <message>
-        <source>éæ©è§åº¦</source>
-        <translation type="vanished">Specify Angle</translation>
-    </message>
-    <message>
-        <source>è¯·ä¾æ¬¡éæ©ä¸ç¹ï¼åå«æ¯è§ç¹åè§ä¸ä¸¤ç¹ã
-ä¸¤ç¹ä¹é´ç¸å¯¹è§ç¹çè§åº¦ï¼ä½ä¸ºéµåè§åº¦ã</source>
-        <translation type="vanished">Specify three points: the vertex and two points on the two rays.
-The angle between the two rays is taken.</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©è§ç¹</source>
-        <translation type="vanished">Specify the vertex</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©è§ä¸ç¬¬ä¸ä¸ªç¹</source>
-        <translation type="vanished">Specify a point on the first ray</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©è§ä¸ç¬¬äºä¸ªç¹</source>
-        <translation type="vanished">Specify a point on the second ray</translation>
-    </message>
-    <message>
-        <source>éæ©å¾ååºåç¹</source>
-        <translation type="vanished">Specify the radial base point</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©ä¸ç¹ï¼ä½ä¸ºæ²¿åå¾æ¹åéµååºåç¹ã</source>
-        <translation type="vanished">Specify a point as the base point for radial arrays.</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©åºåç¹</source>
-        <translation type="vanished">Specify the base point</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©ç¸å¯¹é¶ç¹</source>
-        <translation type="vanished">Specify the origin</translation>
-    </message>
-    <message>
-        <source>æéµå</source>
-        <translation type="vanished">with array </translation>
-    </message>
-    <message>
-        <source>æ éµå</source>
-        <translation type="vanished">no array </translation>
-    </message>
-    <message>
-        <source>ä¿¡æ¯ï¼å·²é %1 ä¸ªç¹ï¼%2</source>
-        <translation type="vanished">Info: %1 points selected, %2</translation>
-    </message>
-    <message>
-        <source>ä¿¡æ¯ï¼å·²é %1 ä¸ªç¹ï¼éµå %2 ç¹</source>
-        <translation type="vanished">Info: %1 points selected, %2 points in array</translation>
-    </message>
-    <message>
-        <source>å½åå·²éå %1 ä¸ªç¹ï¼%2éµåãæ»è®¡ %3 ä¸ªç¹ä½ã</source>
-        <translation type="vanished">%1 points selected, %2 points in array. %3 points totally.</translation>
-    </message>
-    <message>
-        <source>èªå¨éç¹</source>
-        <translation type="vanished">Auto Select</translation>
-    </message>
-    <message>
-        <source>éµåè®¾ç½®</source>
-        <translation type="vanished">Array Settings</translation>
-    </message>
-    <message>
-        <source>ä¿å­æä»¶</source>
-        <translation type="vanished">Save File</translation>
-    </message>
-    <message>
-        <source>å·²éç¹</source>
-        <translation type="vanished">Selected Points</translation>
-    </message>
-    <message>
-        <source>å·²éç¹æ°ï¼
-%1</source>
-        <translation type="vanished">Selected:\n%1</translation>
-    </message>
-    <message>
-        <source>æ ¼å¼æé</source>
-        <translation type="vanished">Wrong format</translation>
-    </message>
-    <message>
-        <source>ç¬¬%1è¡3Bä»£ç æ ¼å¼æé</source>
-        <translation type="vanished">Wrong format for 3B in line %1</translation>
-    </message>
-    <message>
-        <source>æå¨éç¹</source>
-        <translation type="vanished">Select Points Manually</translation>
-    </message>
-    <message>
-        <source>æ¥çéç¹</source>
-        <translation type="vanished">Auto Select Points</translation>
-    </message>
-    <message>
-        <source>çæéµå</source>
-        <translation type="vanished">Generate Array</translation>
-    </message>
-    <message>
-        <source>å é¤éµå</source>
-        <translation type="vanished">Del Array</translation>
-    </message>
-    <message>
-        <source>å¯¼å¥3Bæä»¶</source>
-        <translation type="vanished">Import 3B File</translation>
-    </message>
-    <message>
-        <source>æ¸ç©ºææç¹</source>
-        <translation type="vanished">Del All Points</translation>
-    </message>
-    <message>
-        <source>è¿åæ§å¶çé¢</source>
-        <translation type="vanished">Back to CNC</translation>
-    </message>
-    <message>
-        <source>ç¯å½¢éµå</source>
-        <translation type="vanished">Ring Array</translation>
-    </message>
-    <message>
-        <source>ç¯å½¢éµåä¸­ï¼ä¸­å¿ç¹ä¸å¾ååºåç¹ä¸è½ç¸åã
-åºåç¹ä¸è¬ä¸ºå¾å½¢ä¸­å¿æå¾å½¢ä¸ä¸ç¹ã
-è¯·ä¿®æ¹ã</source>
-        <translation type="vanished">Then radial base point can not be the ring center.\nThe base point is usually the center point of the drawing or a point on it.\nPlease try again.</translation>
-    </message>
-    <message>
-        <source>å·²çæéµåã</source>
-        <translation type="vanished">Array generated.</translation>
-    </message>
-    <message>
-        <source>å é¤éµåãæ¯å¦ç¡®è®¤ï¼</source>
-        <translation type="vanished">Sure to delete array?</translation>
-    </message>
-    <message>
-        <source>ç¡®è®¤</source>
-        <translation type="vanished">Ok</translation>
-    </message>
-    <message>
-        <source>åæ¶</source>
-        <translation type="vanished">Cancel</translation>
-    </message>
-    <message>
-        <source>ä¿å­æå</source>
-        <translation type="vanished">File Saved</translation>
-    </message>
-    <message>
-        <source>å·²æåä¿å­å° %1 æä»¶ã</source>
-        <translation type="vanished">File saved to %1.</translation>
-    </message>
-    <message>
-        <source>ä¿å­å¤±è´¥</source>
-        <translation type="vanished">Fail to Save</translation>
-    </message>
-    <message>
-        <source>æä»¶ä¿å­å¤±è´¥ãè¯·æ£æ¥åéè¯ã</source>
-        <translation type="vanished">Fail to save file. Please try again.</translation>
-    </message>
-    <message>
-        <source>æ¸ç©ºææç¹ãæ¯å¦ç¡®è®¤ï¼</source>
-        <translation type="vanished">Sure to delete all points?</translation>
-    </message>
-    <message>
-        <source>ç¹å»âå¼å§éç¹âåï¼éä¸ªéåå¾å å·¥çç¹ä½ãè¥è¦éåºï¼è¯·ç¹å»é¼ æ å³é®æèESCã
-ç¹å»âå®æéç¹âéåºã
-(éç¹æ¶ä¹å¯ä»¥å¨å³ä¸æ¹å½ä»¤æ¡ä¸­è¾å¥åæ ï¼å¦ï¼10.2,9.3)
-
-ç®åå·²é %1 ä¸ªç¹ã</source>
-        <translation type="vanished">Click &quot;Start&quot; then select one by one. Press ESC or mouse right click to quit selecting.
-Click &quot;Done&quot; to quit.
-(You can input coordinates in the cmd box, like 10.2,9.3)
-
-%1 points selected.</translation>
-    </message>
-    <message>
-        <source>å¼å§éç¹</source>
-        <translation type="vanished">Start</translation>
-    </message>
-    <message>
-        <source>å®æéç¹</source>
-        <translation type="vanished">Done</translation>
-    </message>
-    <message>
-        <source>è¯·éæ©ä¸ä¸ªç¹æèè¾å¥åæ </source>
-        <translation type="vanished">Specify a point or input coordinates</translation>
-    </message>
-    <message>
-        <source>ç¡®å®åæ¶</source>
-        <translation type="vanished">Sure to quit</translation>
-    </message>
-    <message>
-        <source>ç¡®å®åæ¶ï¼
-ææå·²éçç¹é½ä¸ä¼è¢«ä¿å­ã</source>
-        <translation type="vanished">Sure to quit?
-No points will be saved.</translation>
-    </message>
-    <message>
-        <source>ç¡®è®¤éåº</source>
-        <translation type="vanished">Quit</translation>
-    </message>
-    <message>
-        <source>ä¸éåº</source>
-        <translation type="vanished">Do not quit</translation>
-    </message>
-    <message>
-        <source>ç¡®å®æ¸ç©º</source>
-        <translation type="vanished">Sure to delete all points</translation>
-    </message>
-    <message>
-        <source>ç¡®å®æ¸ç©ºç»å¸ä¸çéç¹ï¼
-ææå·²éçç¹é½ä¸ä¼è¢«ä¿å­ã</source>
-        <translation type="vanished">Sure to delete all selected points?
-No points will be saved if you do so.</translation>
-    </message>
-    <message>
-        <source>æ¨è¿æ²¡æéç¹ï¼æ æ³ä¿å­ã</source>
-        <translation type="vanished">No point selected. Nothing to save.</translation>
-    </message>
-    <message>
-        <source>NCæä»¶(*.nc)</source>
-        <translation type="vanished">NC File (*.nc)</translation>
-    </message>
-    <message>
-        <source>æä»¶å·²å­å¨</source>
-        <translation type="vanished">File exists</translation>
-    </message>
-    <message>
-        <source>æ­¤æä»¶å·²ç»å­å¨ï¼æ¨æ³è¦çåï¼</source>
-        <translation type="vanished">File exists. Overwrite?</translation>
-    </message>
-    <message>
-        <source>è¦ç</source>
-        <translation type="vanished">Overwrite</translation>
-    </message>
-    <message>
-        <source>æ²¡æå¨å¾ä¸­æ¾å°ç¹ã</source>
-        <translation type="vanished">No points found on the drawing.</translation>
-    </message>
-    <message>
-        <source>æ²¡ææ´å¤çç¹</source>
-        <translation type="vanished">No more points</translation>
-    </message>
-    <message>
-        <source>å·²æè§åéåå¨é¨çç¹ã
-æ²¡æå¨å¾ä¸­æ¾å°æ´å¤ç¬¦åè§åçç¹ã</source>
-        <translation type="vanished">All points have been selected according to the filter.
-No more points found on the drawing.</translation>
-    </message>
-    <message>
-        <source>èªå¨éåäºå¾ä¸­ç%1ä¸ªç¹ã</source>
-        <translation type="vanished">%1 points auto selected.</translation>
-    </message>
-    <message>
-        <source>æ¸ç©ºå¾çº¸</source>
-        <translation type="vanished">Clear Drawing</translation>
-    </message>
-    <message>
-        <source>éè¦æ¸ç©ºå¾çº¸ãæ¯å¦ç»§ç»­ï¼</source>
-        <translation type="vanished">The drawing will be cleared. Continue?</translation>
-    </message>
-    <message>
-        <source>ç»§ç»­</source>
-        <translation type="vanished">Continue</translation>
-    </message>
-    <message>
-        <source>æå¼3Bæä»¶</source>
-        <translation type="vanished">Open 3B File</translation>
-    </message>
-    <message>
-        <source>3Bæä»¶(*.3b *.3B)</source>
-        <translation type="vanished">3B File (*.3b *.3B)</translation>
-    </message>
-    <message>
-        <source>è­¦å</source>
-        <translation type="vanished">Warning</translation>
-    </message>
-    <message>
-        <source>ç³»ç»æç¤ºï¼		
-3Bæä»¶è½¬æ¢åºéï¼
-</source>
-        <translation type="vanished">System Info:\t\t
-Error occured when converting 3B file!</translation>
-    </message>
-    <message>
-        <source>æç¤º</source>
-        <translation type="vanished">Infomation</translation>
-    </message>
-    <message>
-        <source>ç³»ç»æç¤ºï¼		
-3Bæä»¶è½¬æ¢å®æã</source>
-        <translation type="vanished">System Info:\t\t
-3B file conversion finished.</translation>
-    </message>
     <message>
         <location filename="../drilling/DrillMainDialog.cpp" line="25"/>
         <location filename="../drilling/drilling.cpp" line="37"/>

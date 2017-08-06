@@ -787,198 +787,131 @@
     </message>
 </context>
 <context>
-    <name>MEC_FileDialog</name>
+    <name>MecFileDialog</name>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="14"/>
+        <location filename="../drilling/mecfiledialog.ui" line="14"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="80"/>
-        <location filename="../drilling/mec_filedialog.ui" line="261"/>
+        <location filename="../drilling/mecfiledialog.ui" line="80"/>
+        <location filename="../drilling/mecfiledialog.ui" line="261"/>
         <source>File Name</source>
-        <translation type="unfinished"></translation>
+        <translation>文件名</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="93"/>
+        <location filename="../drilling/mecfiledialog.ui" line="93"/>
         <source>File Size</source>
-        <translation type="unfinished"></translation>
+        <translation>文件大小</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="123"/>
+        <location filename="../drilling/mecfiledialog.ui" line="123"/>
         <source>Look In</source>
-        <translation type="unfinished"></translation>
+        <translation>位置</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="150"/>
+        <location filename="../drilling/mecfiledialog.ui" line="150"/>
         <source>:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="177"/>
+        <location filename="../drilling/mecfiledialog.ui" line="177"/>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>刷新</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="198"/>
+        <location filename="../drilling/mecfiledialog.ui" line="198"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>好的</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="219"/>
+        <location filename="../drilling/mecfiledialog.ui" line="219"/>
         <source>Cancel</source>
-        <translation type="unfinished">取消</translation>
+        <translation>取消</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="306"/>
+        <location filename="../drilling/mecfiledialog.ui" line="306"/>
         <source>File Type</source>
-        <translation type="unfinished"></translation>
+        <translation>文件类型</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="333"/>
+        <location filename="../drilling/mecfiledialog.ui" line="333"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>打开</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="351"/>
+        <location filename="../drilling/mecfiledialog.ui" line="351"/>
         <source>Local Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>本地文件</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.ui" line="372"/>
+        <location filename="../drilling/mecfiledialog.ui" line="372"/>
         <source>USB Storage</source>
-        <translation type="unfinished"></translation>
+        <translation>U盘文件</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="29"/>
-        <source>Drawing Exchange DXF 2007 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="30"/>
-        <source>Drawing Exchange DXF 2004 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="31"/>
-        <source>Drawing Exchange DXF 2000 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="32"/>
-        <source>Drawing Exchange DXF R14 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="33"/>
-        <source>Drawing Exchange DXF R12 %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="34"/>
-        <source>Drawing Exchange %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="36"/>
-        <source>LFF Font %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="38"/>
-        <source>dwg Drawing %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="40"/>
-        <source>QCad Font %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="41"/>
-        <source>Jww Drawing %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="42"/>
-        <source>QCad 1.x file %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="45"/>
-        <source>Block</source>
-        <comment>block file</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="48"/>
-        <source>Drawing</source>
-        <comment>drawing file</comment>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="159"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="136"/>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>未命名</translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="276"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="253"/>
         <source>返回</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="400"/>
-        <source>文件已存在</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="401"/>
-        <source>同名文件已经存在，是否覆盖？</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="404"/>
-        <source>取消</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="405"/>
-        <source>覆盖</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="412"/>
-        <source>无效文件名</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="413"/>
-        <source>文件名不能为空，也不能以特殊字符开头。</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="417"/>
-        <source>好的</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="314"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="291"/>
         <source>%1 B</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="318"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="295"/>
         <source>%1 KB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="322"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="299"/>
         <source>%1 MB</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../drilling/mec_filedialog.cpp" line="326"/>
+        <location filename="../drilling/mecfiledialog.cpp" line="303"/>
         <source>%1 GB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../drilling/mecfiledialog.cpp" line="377"/>
+        <source>文件已存在</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../drilling/mecfiledialog.cpp" line="378"/>
+        <source>同名文件已经存在，是否覆盖？</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../drilling/mecfiledialog.cpp" line="381"/>
+        <source>取消</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../drilling/mecfiledialog.cpp" line="382"/>
+        <source>覆盖</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../drilling/mecfiledialog.cpp" line="389"/>
+        <source>无效文件名</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../drilling/mecfiledialog.cpp" line="390"/>
+        <source>文件名不能为空，也不能以特殊字符开头。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../drilling/mecfiledialog.cpp" line="394"/>
+        <source>好的</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
