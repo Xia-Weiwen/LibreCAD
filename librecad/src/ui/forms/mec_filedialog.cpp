@@ -102,6 +102,26 @@ void MEC_FileDialog::setRootDirType(int type)
         {
             rootDir = QDir::homePath() + "/Documents/drill/drill/testdata/";
         }
+        else if (QDir(QDir::homePath() + "/SAW-mec/testdata/").exists())
+        {
+            rootDir = QDir::homePath() + "/SAW-mec/testdata/";
+        }
+        else if (QDir(QDir::homePath() + "/SAW-mec/user_files/").exists())
+        {
+            rootDir = QDir::homePath() + "/SAW-mec/user_files/";
+        }
+        else if (QDir(QDir::homePath() + "/saw/testdata/").exists())
+        {
+            rootDir = QDir::homePath() + "/saw/testdata/";
+        }
+        else if (QDir(QDir::homePath() + "/saw/user_files/").exists())
+        {
+            rootDir = QDir::homePath() + "/saw/user_files/";
+        }
+        else
+        {
+            rootDir = QDir::homePath();
+        }
     }
     else if (type == 1)
     {
